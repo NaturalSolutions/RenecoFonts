@@ -11,5 +11,6 @@
     "reneco",
     "NS"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "main" : [ "demo.html", "fonts/", "ie7", "selection.json", "style.css"]
 }
