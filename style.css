@@ -9,7 +9,7 @@
 	font-style: normal;
 }
 
-[class^="reneco."], [class*=" reneco."] {
+[class^="reneco"], [class*=" reneco"] {
 	font-family: 'reneco-font';
 	speak: none;
 	font-style: normal;
