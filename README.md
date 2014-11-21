@@ -9,3 +9,6 @@ generated font in your own projects.
 You can import *selection.json* back to the IcoMoon app using the *Import Icons* button (or 
 via Main Menu > Manage Projects) to retrieve your icon selection.
 
+## Demo page
+
+[Reneco font demo page](http://naturalsolutions.github.io/RenecoFonts/)
