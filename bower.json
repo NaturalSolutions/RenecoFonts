@@ -1,6 +1,7 @@
 {
   "name": "RenecoFonts",
   "homepage": "https://github.com/NaturalSolutions/RenecoFonts",
+  "version" : "1.0",
   "authors": [
     "ericpringels <eric_pringels@natural-solutions.eu>"
   ],
