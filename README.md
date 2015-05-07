@@ -9,6 +9,28 @@ generated font in your own projects.
 You can import *selection.json* back to the IcoMoon app using the *Import Icons* button (or 
 via Main Menu > Manage Projects) to retrieve your icon selection.
 
+**Install with bower**
+
+    bower install git@github.com:NaturalSolutions/RenecoFonts.git
+
 ## Demo page
 
 [Reneco font demo page](http://naturalsolutions.github.io/RenecoFonts/)
+
+## Latest version
+
+In the lastest version the CSS classes like Bootstrap classes.
+
+Before : 
+
+    <span class="reneco ring"></span>
+
+Now (like bootstrap):
+
+    <span class="reneco reneco-ring"></span>
+
+## Old version
+
+You can still use the old version (1.0). You can install it with this bower command :
+
+    bower install git@github.com:NaturalSolutions/RenecoFonts.git#1.0
