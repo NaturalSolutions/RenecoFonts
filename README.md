@@ -12,6 +12,14 @@ via Main Menu > Manage Projects) to retrieve your icon selection.
 **Install with bower**
 
     bower install git@github.com:NaturalSolutions/RenecoFonts.git
+	
+Or
+
+	bower install reneco-fonts
+	
+## Available icons
+
+![Icon palette](http://img11.hostingpics.net/pics/344237unnamed.jpg)
 
 ## Demo page
 

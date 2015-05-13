@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'reneco';
-	src:url('fonts/reneco.eot?-6g4nb0');
-	src:url('fonts/reneco.eot?#iefix-6g4nb0') format('embedded-opentype'),
-		url('fonts/reneco.woff?-6g4nb0') format('woff'),
-		url('fonts/reneco.ttf?-6g4nb0') format('truetype'),
-		url('fonts/reneco.svg?-6g4nb0#reneco') format('svg');
+	src:url('fonts/reneco.eot?-imoc9a');
+	src:url('fonts/reneco.eot?#iefix-imoc9a') format('embedded-opentype'),
+		url('fonts/reneco.woff?-imoc9a') format('woff'),
+		url('fonts/reneco.ttf?-imoc9a') format('truetype'),
+		url('fonts/reneco.svg?-imoc9a#reneco') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -57,6 +57,10 @@
 
 .reneco-checkbox_on:before {
 	content: "\e63f";
+}
+
+.reneco-select:before {
+	content: "\e654";
 }
 
 .reneco-checkbox_off:before {
