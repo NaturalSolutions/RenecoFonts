@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'reneco';
-    src:    url('fonts/reneco.eot?xefhoh');
-    src:    url('fonts/reneco.eot?xefhoh#iefix') format('embedded-opentype'),
-        url('fonts/reneco.ttf?xefhoh') format('truetype'),
-        url('fonts/reneco.woff?xefhoh') format('woff'),
-        url('fonts/reneco.svg?xefhoh#reneco') format('svg');
+    src:    url('fonts/reneco.eot?z1w1gk');
+    src:    url('fonts/reneco.eot?z1w1gk#iefix') format('embedded-opentype'),
+        url('fonts/reneco.ttf?z1w1gk') format('truetype'),
+        url('fonts/reneco.woff?z1w1gk') format('woff'),
+        url('fonts/reneco.svg?z1w1gk#reneco') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -581,5 +581,8 @@
 }
 .reneco-locked:before {
     content: "\e911";
+}
+.reneco-support:before {
+    content: "\e912";
 }
 
