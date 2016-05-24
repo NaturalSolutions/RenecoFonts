@@ -25,7 +25,7 @@ Or
 
 ## Demo page
 
-[Reneco font demo page](http://naturalsolutions.github.io/RenecoFonts/)
+[Reneco font demo page](http://naturalsolutions.github.io/RenecoFonts/demo.html)
 
 ## Latest version
 
