@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'reneco';
-    src:    url('fonts/reneco.eot?z1w1gk');
-    src:    url('fonts/reneco.eot?z1w1gk#iefix') format('embedded-opentype'),
-        url('fonts/reneco.ttf?z1w1gk') format('truetype'),
-        url('fonts/reneco.woff?z1w1gk') format('woff'),
-        url('fonts/reneco.svg?z1w1gk#reneco') format('svg');
+    src:    url('fonts/reneco.eot?b2trao');
+    src:    url('fonts/reneco.eot?b2trao#iefix') format('embedded-opentype'),
+        url('fonts/reneco.ttf?b2trao') format('truetype'),
+        url('fonts/reneco.woff?b2trao') format('woff'),
+        url('fonts/reneco.svg?b2trao#reneco') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -584,5 +584,11 @@
 }
 .reneco-support:before {
     content: "\e912";
+}
+.reneco-image_file:before {
+    content: "\e913";
+}
+.reneco-decimal_input:before {
+    content: "\e914";
 }
 
