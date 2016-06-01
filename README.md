@@ -21,7 +21,7 @@ Or
 	
 ## Available icons
 
-![Icon palette](http://depot.natural-solutions.eu/github_images/reneco_font_splash_1.3.png)
+![Icon palette](http://depot.natural-solutions.eu/github_images/reneco font_splash_1.3.png)
 
 ## Demo page
 
