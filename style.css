@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?n222qd');
-  src:  url('fonts/reneco.eot?n222qd#iefix') format('embedded-opentype'),
-    url('fonts/reneco.ttf?n222qd') format('truetype'),
-    url('fonts/reneco.woff?n222qd') format('woff'),
-    url('fonts/reneco.svg?n222qd#reneco') format('svg');
+  src:  url('fonts/reneco.eot?8twn39');
+  src:  url('fonts/reneco.eot?8twn39#iefix') format('embedded-opentype'),
+    url('fonts/reneco.ttf?8twn39') format('truetype'),
+    url('fonts/reneco.woff?8twn39') format('woff'),
+    url('fonts/reneco.svg?8twn39#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -36,59 +36,209 @@
 .reneco-chevron_bottom:before {
   content: "\e682";
 }
-.reneco-bug_list:before {
-  content: "\e683";
+.reneco-leftarrow:before {
+  content: "\e65b";
 }
-.reneco-bug:before {
-  content: "\e684";
+.reneco-rightarrow:before {
+  content: "\e65c";
 }
-.reneco-sample_list2:before {
-  content: "\e685";
+.reneco-add:before {
+  content: "\e65d";
 }
-.reneco-organe:before {
-  content: "\e69a";
+.reneco-checked:before {
+  content: "\e62a";
 }
-.reneco-ecouvillon:before {
-  content: "\e69f";
+.reneco-close:before {
+  content: "\e65e";
 }
-.reneco-pot:before {
-  content: "\e6a0";
+.reneco-syncing:before {
+  content: "\e65a";
 }
-.reneco-send_labo:before {
-  content: "\e6a1";
+.reneco-search2:before {
+  content: "\e65f";
 }
-.reneco-return_labo:before {
-  content: "\e6a2";
+.reneco-edit:before {
+  content: "\e669";
 }
-.reneco-centrifuge:before {
-  content: "\e6a3";
+.reneco-back:before {
+  content: "\e69e";
 }
-.reneco-extraction:before {
-  content: "\e6a4";
+.reneco-share:before {
+  content: "\e91f";
 }
-.reneco-change_position:before {
-  content: "\e6a5";
+.reneco-inter_app_link:before {
+  content: "\e91a";
 }
-.reneco-send_identification:before {
-  content: "\e6a6";
+.reneco-rewind:before {
+  content: "\e664";
 }
-.reneco-return_identification:before {
-  content: "\e6a7";
+.reneco-back2:before {
+  content: "\e916";
 }
-.reneco-tree_addchild:before {
-  content: "\e64a";
+.reneco-pause:before {
+  content: "\e92b";
+}
+.reneco-play:before {
+  content: "\e665";
+}
+.reneco-forward:before {
+  content: "\e666";
+}
+.reneco-menu:before {
+  content: "\e674";
+}
+.reneco-trash:before {
+  content: "\e681";
+}
+.reneco-protocol:before {
+  content: "\e602";
+}
+.reneco-drag2:before {
+  content: "\e603";
+}
+.reneco-drag_thin:before {
+  content: "\e62b";
+}
+.reneco-fit:before {
+  content: "\e67d";
+}
+.reneco-write:before {
+  content: "\e64b";
+}
+.reneco-print:before {
+  content: "\e924";
+}
+.reneco-calendar:before {
+  content: "\e67a";
+}
+.reneco-pin2:before {
+  content: "\e66c";
+}
+.reneco-connect:before {
+  content: "\e915";
+}
+.reneco-search:before {
+  content: "\e61e";
+}
+.reneco-pin:before {
+  content: "\e663";
+}
+.reneco-support:before {
+  content: "\e912";
+}
+.reneco-info:before {
+  content: "\e69d";
+}
+.reneco-text_filter:before {
+  content: "\e91c";
+}
+.reneco-settings:before {
+  content: "\e657";
+}
+.reneco-tools:before {
+  content: "\e90f";
+}
+.reneco-time:before {
+  content: "\e655";
+}
+.reneco-timeblack:before {
+  content: "\e662";
+}
+.reneco-timewhite:before {
+  content: "\e661";
+}
+.reneco-users:before {
+  content: "\e652";
+}
+.reneco-user:before {
+  content: "\e651";
+}
+.reneco-site2:before {
+  content: "\e918";
+}
+.reneco-site:before {
+  content: "\e698";
+}
+.reneco-file:before {
+  content: "\e62c";
+}
+.reneco-folder:before {
+  content: "\e62d";
+}
+.reneco-cloud:before {
+  content: "\e62e";
 }
 .reneco-cloud2:before {
   content: "\e64c";
 }
+.reneco-drag:before {
+  content: "\e679";
+}
+.reneco-graph:before {
+  content: "\e673";
+}
+.reneco-observers:before {
+  content: "\e69b";
+}
+.reneco-layers:before {
+  content: "\e64d";
+}
 .reneco-group:before {
   content: "\e639";
 }
-.reneco-sample:before {
-  content: "\e63a";
+.reneco-info2:before {
+  content: "\e920";
+}
+.reneco-comment:before {
+  content: "\e699";
+}
+.reneco-favorite:before {
+  content: "\e660";
+}
+.reneco-observation:before {
+  content: "\e677";
+}
+.reneco-hidden:before {
+  content: "\e644";
+}
+.reneco-radio_off:before {
+  content: "\e642";
+}
+.reneco-radio_on:before {
+  content: "\e641";
+}
+.reneco-checkbox_off:before {
+  content: "\e640";
+}
+.reneco-validate:before {
+  content: "\e659";
+}
+.reneco-checkbox_on:before {
+  content: "\e63f";
+}
+.reneco-select:before {
+  content: "\e654";
+}
+.reneco-locked:before {
+  content: "\e911";
+}
+.reneco-unlocked:before {
+  content: "\e910";
+}
+.reneco-import1:before {
+  content: "\e658";
+}
+.reneco-duplicate:before {
+  content: "\e604";
+}
+.reneco-tree_addchild:before {
+  content: "\e64a";
 }
 .reneco-text:before {
   content: "\e63b";
+}
+.reneco-file2:before {
+  content: "\e643";
 }
 .reneco-numeric:before {
   content: "\e63c";
@@ -99,26 +249,11 @@
 .reneco-cursor:before {
   content: "\e63e";
 }
-.reneco-checkbox_on:before {
-  content: "\e63f";
+.reneco-image_file:before {
+  content: "\e913";
 }
-.reneco-select:before {
-  content: "\e654";
-}
-.reneco-checkbox_off:before {
-  content: "\e640";
-}
-.reneco-radio_on:before {
-  content: "\e641";
-}
-.reneco-radio_off:before {
-  content: "\e642";
-}
-.reneco-file2:before {
-  content: "\e643";
-}
-.reneco-hidden:before {
-  content: "\e644";
+.reneco-map:before {
+  content: "\e68c";
 }
 .reneco-mask:before {
   content: "\e645";
@@ -135,29 +270,53 @@
 .reneco-separator:before {
   content: "\e649";
 }
+.reneco-distance:before {
+  content: "\e653";
+}
+.reneco-selectarea:before {
+  content: "\e678";
+}
+.reneco-decimal_input:before {
+  content: "\e914";
+}
+.reneco-export:before {
+  content: "\e633";
+}
+.reneco-export2:before {
+  content: "\e686";
+}
+.reneco-import:before {
+  content: "\e634";
+}
+.reneco-import2:before {
+  content: "\e687";
+}
+.reneco-sensorimport:before {
+  content: "\e636";
+}
+.reneco-importsensor2:before {
+  content: "\e689";
+}
+.reneco-mydata:before {
+  content: "\e635";
+}
+.reneco-mydata2:before {
+  content: "\e688";
+}
 .reneco-exportsmall:before {
   content: "\e600";
 }
+.reneco-importsensor:before {
+  content: "\e68a";
+}
+.reneco-exportsensor:before {
+  content: "\e68b";
+}
+.reneco-validatebig:before {
+  content: "\e69c";
+}
 .reneco-view:before {
   content: "\e601";
-}
-.reneco-protocol:before {
-  content: "\e602";
-}
-.reneco-drag2:before {
-  content: "\e603";
-}
-.reneco-duplicate:before {
-  content: "\e604";
-}
-.reneco-pendingsamples:before {
-  content: "\e605";
-}
-.reneco-samples:before {
-  content: "\e606";
-}
-.reneco-ecollectionsmall:before {
-  content: "\e607";
 }
 .reneco-rfid_format:before {
   content: "\e608";
@@ -177,14 +336,125 @@
 .reneco-argos_format:before {
   content: "\e907";
 }
+.reneco-camera_format .path1:before {
+  content: "\e926";
+  color: rgb(22, 22, 21);
+}
+.reneco-camera_format .path2:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.reneco-camera_format .path3:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.reneco-camera_format .path4:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.reneco-camera_format .path5:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.reneco-sheet2:before {
+  content: "\e66b";
+}
+.reneco-sheet:before {
+  content: "\e66a";
+}
+.reneco-report:before {
+  content: "\e67c";
+}
+.reneco-entry:before {
+  content: "\e631";
+}
+.reneco-entrykey:before {
+  content: "\e632";
+}
+.reneco-bug_list:before {
+  content: "\e683";
+}
+.reneco-sample_list2:before {
+  content: "\e685";
+}
+.reneco-pendingsamples:before {
+  content: "\e605";
+}
+.reneco-samples:before {
+  content: "\e606";
+}
+.reneco-report_list:before {
+  content: "\e91d";
+}
+.reneco-position_list:before {
+  content: "\e91e";
+}
+.reneco-sites:before {
+  content: "\e671";
+}
+.reneco-stations:before {
+  content: "\e670";
+}
+.reneco-individuals:before {
+  content: "\e630";
+}
+.reneco-sensors:before {
+  content: "\e62f";
+}
+.reneco-id:before {
+  content: "\e66e";
+}
+.reneco-satellite:before {
+  content: "\e67b";
+}
 .reneco-rfid:before {
   content: "\e900";
+}
+.reneco-emitters:before {
+  content: "\e667";
+}
+.reneco-sample:before {
+  content: "\e63a";
+}
+.reneco-individualsmall:before {
+  content: "\e61f";
+}
+.reneco-individual_group:before {
+  content: "\e902";
+}
+.reneco-ecouvillon:before {
+  content: "\e69f";
+}
+.reneco-organe:before {
+  content: "\e69a";
+}
+.reneco-bug:before {
+  content: "\e684";
 }
 .reneco-argos:before {
   content: "\e901";
 }
+.reneco-top_concept:before {
+  content: "\e921";
+}
+.reneco-middle_concept:before {
+  content: "\e922";
+}
+.reneco-bottom_concept:before {
+  content: "\e923";
+}
 .reneco-sexage:before {
   content: "\e60d";
+}
+.reneco-male:before {
+  content: "\e650";
+}
+.reneco-female:before {
+  content: "\e66d";
 }
 .reneco-give_sell:before {
   content: "\e60e";
@@ -216,6 +486,12 @@
 .reneco-to_release:before {
   content: "\e617";
 }
+.reneco-free:before {
+  content: "\e676";
+}
+.reneco-elevage:before {
+  content: "\e675";
+}
 .reneco-surplus:before {
   content: "\e618";
 }
@@ -234,15 +510,6 @@
 .reneco-non_inseminated:before {
   content: "\e61d";
 }
-.reneco-search:before {
-  content: "\e61e";
-}
-.reneco-individualsmall:before {
-  content: "\e61f";
-}
-.reneco-individual_group:before {
-  content: "\e902";
-}
 .reneco-broken:before {
   content: "\e620";
 }
@@ -255,77 +522,50 @@
 .reneco-late:before {
   content: "\e623";
 }
+.reneco-adulte:before {
+  content: "\e626";
+}
 .reneco-dead:before {
   content: "\e624";
 }
 .reneco-juvenile:before {
   content: "\e625";
 }
+.reneco-reforme:before {
+  content: "\e917";
+}
 .reneco-sentinelle:before {
   content: "\e908";
 }
-.reneco-adulte:before {
-  content: "\e626";
+.reneco-sentinelle2:before {
+  content: "\e91b";
 }
-.reneco-bustard:before {
-  content: "\e627";
+.reneco-not_sentinelle:before {
+  content: "\e925";
 }
-.reneco-falcon:before {
-  content: "\e628";
+.reneco-retraite:before {
+  content: "\e919";
 }
 .reneco-unknown:before {
   content: "\e629";
 }
-.reneco-checked:before {
-  content: "\e62a";
+.reneco-bustard:before {
+  content: "\e627";
 }
-.reneco-drag_thin:before {
-  content: "\e62b";
+.reneco-bird:before {
+  content: "\e656";
 }
-.reneco-file:before {
-  content: "\e62c";
+.reneco-adult:before {
+  content: "\e680";
 }
-.reneco-folder:before {
-  content: "\e62d";
+.reneco-child:before {
+  content: "\e67f";
 }
-.reneco-cloud:before {
-  content: "\e62e";
+.reneco-bird2:before {
+  content: "\e67e";
 }
-.reneco-sensors:before {
-  content: "\e62f";
-}
-.reneco-individuals:before {
-  content: "\e630";
-}
-.reneco-entry:before {
-  content: "\e631";
-}
-.reneco-entrykey:before {
-  content: "\e632";
-}
-.reneco-export:before {
-  content: "\e633";
-}
-.reneco-import:before {
-  content: "\e634";
-}
-.reneco-mydata:before {
-  content: "\e635";
-}
-.reneco-sensorimport:before {
-  content: "\e636";
-}
-.reneco-formbuilder:before {
-  content: "\e637";
-}
-.reneco-formbuildersmall:before {
-  content: "\e638";
-}
-.reneco-write:before {
-  content: "\e64b";
-}
-.reneco-layers:before {
-  content: "\e64d";
+.reneco-falcon:before {
+  content: "\e628";
 }
 .reneco-ring:before {
   content: "\e64e";
@@ -333,191 +573,29 @@
 .reneco-marker:before {
   content: "\e64f";
 }
-.reneco-male:before {
-  content: "\e650";
+.reneco-change_position:before {
+  content: "\e6a5";
 }
-.reneco-user:before {
-  content: "\e651";
+.reneco-extraction:before {
+  content: "\e6a4";
 }
-.reneco-users:before {
-  content: "\e652";
+.reneco-send_identification:before {
+  content: "\e6a6";
 }
-.reneco-distance:before {
-  content: "\e653";
+.reneco-return_identification:before {
+  content: "\e6a7";
 }
-.reneco-time:before {
-  content: "\e655";
+.reneco-pot:before {
+  content: "\e6a0";
 }
-.reneco-bird:before {
-  content: "\e656";
+.reneco-send_labo:before {
+  content: "\e6a1";
 }
-.reneco-settings:before {
-  content: "\e657";
+.reneco-return_labo:before {
+  content: "\e6a2";
 }
-.reneco-import1:before {
-  content: "\e658";
-}
-.reneco-validate:before {
-  content: "\e659";
-}
-.reneco-syncing:before {
-  content: "\e65a";
-}
-.reneco-leftarrow:before {
-  content: "\e65b";
-}
-.reneco-rightarrow:before {
-  content: "\e65c";
-}
-.reneco-add:before {
-  content: "\e65d";
-}
-.reneco-close:before {
-  content: "\e65e";
-}
-.reneco-search2:before {
-  content: "\e65f";
-}
-.reneco-favorite:before {
-  content: "\e660";
-}
-.reneco-timewhite:before {
-  content: "\e661";
-}
-.reneco-timeblack:before {
-  content: "\e662";
-}
-.reneco-pin:before {
-  content: "\e663";
-}
-.reneco-rewind:before {
-  content: "\e664";
-}
-.reneco-back2:before {
-  content: "\e916";
-}
-.reneco-play:before {
-  content: "\e665";
-}
-.reneco-forward:before {
-  content: "\e666";
-}
-.reneco-emitters:before {
-  content: "\e667";
-}
-.reneco-edit:before {
-  content: "\e669";
-}
-.reneco-sheet:before {
-  content: "\e66a";
-}
-.reneco-sheet2:before {
-  content: "\e66b";
-}
-.reneco-pin2:before {
-  content: "\e66c";
-}
-.reneco-female:before {
-  content: "\e66d";
-}
-.reneco-id:before {
-  content: "\e66e";
-}
-.reneco-stations:before {
-  content: "\e670";
-}
-.reneco-sites:before {
-  content: "\e671";
-}
-.reneco-graph:before {
-  content: "\e673";
-}
-.reneco-menu:before {
-  content: "\e674";
-}
-.reneco-elevage:before {
-  content: "\e675";
-}
-.reneco-free:before {
-  content: "\e676";
-}
-.reneco-observation:before {
-  content: "\e677";
-}
-.reneco-selectarea:before {
-  content: "\e678";
-}
-.reneco-drag:before {
-  content: "\e679";
-}
-.reneco-calendar:before {
-  content: "\e67a";
-}
-.reneco-satellite:before {
-  content: "\e67b";
-}
-.reneco-report:before {
-  content: "\e67c";
-}
-.reneco-fit:before {
-  content: "\e67d";
-}
-.reneco-bird2:before {
-  content: "\e67e";
-}
-.reneco-child:before {
-  content: "\e67f";
-}
-.reneco-adult:before {
-  content: "\e680";
-}
-.reneco-trash:before {
-  content: "\e681";
-}
-.reneco-export2:before {
-  content: "\e686";
-}
-.reneco-import2:before {
-  content: "\e687";
-}
-.reneco-mydata2:before {
-  content: "\e688";
-}
-.reneco-importsensor2:before {
-  content: "\e689";
-}
-.reneco-importsensor:before {
-  content: "\e68a";
-}
-.reneco-exportsensor:before {
-  content: "\e68b";
-}
-.reneco-map:before {
-  content: "\e68c";
-}
-.reneco-ecollectionbig:before {
-  content: "\e68d";
-}
-.reneco-releve:before {
-  content: "\e68e";
-}
-.reneco-trackbird:before {
-  content: "\e68f";
-}
-.reneco-security:before {
-  content: "\e690";
-}
-.reneco-thesaurus:before {
-  content: "\e691";
-}
-.reneco-positions:before {
-  content: "\e903";
-}
-.reneco-taxonomies:before {
-  content: "\e905";
-}
-.reneco-formbuilder2:before {
-  content: "\e909";
+.reneco-centrifuge:before {
+  content: "\e6a3";
 }
 .reneco-worldbig:before {
   content: "\e692";
@@ -525,50 +603,53 @@
 .reneco-worldsmall:before {
   content: "\e693";
 }
+.reneco-ecollectionbig:before {
+  content: "\e68d";
+}
+.reneco-ecollectionsmall:before {
+  content: "\e607";
+}
+.reneco-releve:before {
+  content: "\e68e";
+}
 .reneco-ecorelevesmall:before {
   content: "\e694";
+}
+.reneco-trackbird:before {
+  content: "\e68f";
 }
 .reneco-tracksmall:before {
   content: "\e695";
 }
-.reneco-thesaurussmall:before {
-  content: "\e696";
+.reneco-security:before {
+  content: "\e690";
 }
 .reneco-securitysmall:before {
   content: "\e697";
 }
+.reneco-thesaurus:before {
+  content: "\e691";
+}
+.reneco-thesaurussmall:before {
+  content: "\e696";
+}
+.reneco-positions:before {
+  content: "\e903";
+}
 .reneco-positionssmall:before {
   content: "\e904";
+}
+.reneco-taxonomies:before {
+  content: "\e905";
 }
 .reneco-taxonomiessmall:before {
   content: "\e906";
 }
-.reneco-formbuildersmall2:before {
-  content: "\e90a";
+.reneco-formbuilder:before {
+  content: "\e637";
 }
-.reneco-site:before {
-  content: "\e698";
-}
-.reneco-comment:before {
-  content: "\e699";
-}
-.reneco-observers:before {
-  content: "\e69b";
-}
-.reneco-validatebig:before {
-  content: "\e69c";
-}
-.reneco-info:before {
-  content: "\e69d";
-}
-.reneco-back:before {
-  content: "\e69e";
-}
-.reneco-postitprinter:before {
-  content: "\e90b";
-}
-.reneco-postitprintersmall:before {
-  content: "\e90c";
+.reneco-formbuildersmall:before {
+  content: "\e638";
 }
 .reneco-PTR:before {
   content: "\e90d";
@@ -576,58 +657,10 @@
 .reneco-PTRsmall:before {
   content: "\e90e";
 }
-.reneco-tools:before {
-  content: "\e90f";
+.reneco-postitprinter:before {
+  content: "\e90b";
 }
-.reneco-unlocked:before {
-  content: "\e910";
-}
-.reneco-locked:before {
-  content: "\e911";
-}
-.reneco-support:before {
-  content: "\e912";
-}
-.reneco-image_file:before {
-  content: "\e913";
-}
-.reneco-decimal_input:before {
-  content: "\e914";
-}
-.reneco-connect:before {
-  content: "\e915";
-}
-.reneco-reforme:before {
-  content: "\e917";
-}
-.reneco-retraite:before {
-  content: "\e919";
-}
-.reneco-inter_app_link:before {
-  content: "\e91a";
-}
-.reneco-text_filter:before {
-  content: "\e91c";
-}
-.reneco-report_list:before {
-  content: "\e91d";
-}
-.reneco-position_list:before {
-  content: "\e91e";
-}
-.reneco-share:before {
-  content: "\e91f";
-}
-.reneco-top_concept:before {
-  content: "\e921";
-}
-.reneco-middle_concept:before {
-  content: "\e922";
-}
-.reneco-bottom_concept:before {
-  content: "\e923";
-}
-.reneco-print:before {
-  content: "\e924";
+.reneco-postitprintersmall:before {
+  content: "\e90c";
 }
 
