@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?8twn39');
-  src:  url('fonts/reneco.eot?8twn39#iefix') format('embedded-opentype'),
-    url('fonts/reneco.ttf?8twn39') format('truetype'),
-    url('fonts/reneco.woff?8twn39') format('woff'),
-    url('fonts/reneco.svg?8twn39#reneco') format('svg');
+  src:  url('fonts/reneco.eot?drqop9');
+  src:  url('fonts/reneco.eot?drqop9#iefix') format('embedded-opentype'),
+    url('fonts/reneco.ttf?drqop9') format('truetype'),
+    url('fonts/reneco.woff?drqop9') format('woff'),
+    url('fonts/reneco.svg?drqop9#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -566,6 +566,30 @@
 }
 .reneco-falcon:before {
   content: "\e628";
+}
+.reneco-vulture:before {
+  content: "\e909";
+}
+.reneco-ganga:before {
+  content: "\e90a";
+}
+.reneco-cormoran:before {
+  content: "\e92c";
+}
+.reneco-crocodile:before {
+  content: "\e92d";
+}
+.reneco-pelican:before {
+  content: "\e92e";
+}
+.reneco-rat:before {
+  content: "\e92f";
+}
+.reneco-snake:before {
+  content: "\e930";
+}
+.reneco-tortoise:before {
+  content: "\e931";
 }
 .reneco-ring:before {
   content: "\e64e";
