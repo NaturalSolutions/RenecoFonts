@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?drqop9');
-  src:  url('fonts/reneco.eot?drqop9#iefix') format('embedded-opentype'),
-    url('fonts/reneco.ttf?drqop9') format('truetype'),
-    url('fonts/reneco.woff?drqop9') format('woff'),
-    url('fonts/reneco.svg?drqop9#reneco') format('svg');
+  src:  url('fonts/reneco.eot?79iyzr');
+  src:  url('fonts/reneco.eot?79iyzr#iefix') format('embedded-opentype'),
+    url('fonts/reneco.ttf?79iyzr') format('truetype'),
+    url('fonts/reneco.woff?79iyzr') format('woff'),
+    url('fonts/reneco.svg?79iyzr#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -86,6 +86,9 @@
 }
 .reneco-menu:before {
   content: "\e674";
+}
+.reneco-list:before {
+  content: "\e932";
 }
 .reneco-trash:before {
   content: "\e681";
@@ -437,6 +440,33 @@
 }
 .reneco-argos:before {
   content: "\e901";
+}
+.reneco-story:before {
+  content: "\e933";
+}
+.reneco-task:before {
+  content: "\e934";
+}
+.reneco-level0:before {
+  content: "\e935";
+}
+.reneco-level1:before {
+  content: "\e936";
+}
+.reneco-level2:before {
+  content: "\e937";
+}
+.reneco-level3:before {
+  content: "\e938";
+}
+.reneco-level4:before {
+  content: "\e939";
+}
+.reneco-level5:before {
+  content: "\e93a";
+}
+.reneco-level6:before {
+  content: "\e93b";
 }
 .reneco-top_concept:before {
   content: "\e921";
