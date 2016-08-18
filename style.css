@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?79iyzr');
-  src:  url('fonts/reneco.eot?79iyzr#iefix') format('embedded-opentype'),
-    url('fonts/reneco.ttf?79iyzr') format('truetype'),
-    url('fonts/reneco.woff?79iyzr') format('woff'),
-    url('fonts/reneco.svg?79iyzr#reneco') format('svg');
+  src:  url('fonts/reneco.eot?f62t3g');
+  src:  url('fonts/reneco.eot?f62t3g#iefix') format('embedded-opentype'),
+    url('fonts/reneco.ttf?f62t3g') format('truetype'),
+    url('fonts/reneco.woff?f62t3g') format('woff'),
+    url('fonts/reneco.svg?f62t3g#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -339,29 +339,8 @@
 .reneco-argos_format:before {
   content: "\e907";
 }
-.reneco-camera_format .path1:before {
+.reneco-camera_format:before {
   content: "\e926";
-  color: rgb(22, 22, 21);
-}
-.reneco-camera_format .path2:before {
-  content: "\e927";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.reneco-camera_format .path3:before {
-  content: "\e928";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.reneco-camera_format .path4:before {
-  content: "\e929";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.reneco-camera_format .path5:before {
-  content: "\e92a";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
 }
 .reneco-sheet2:before {
   content: "\e66b";
