@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?f62t3g');
-  src:  url('fonts/reneco.eot?f62t3g#iefix') format('embedded-opentype'),
-    url('fonts/reneco.ttf?f62t3g') format('truetype'),
-    url('fonts/reneco.woff?f62t3g') format('woff'),
-    url('fonts/reneco.svg?f62t3g#reneco') format('svg');
+  src:  url('fonts/reneco.eot?3hloo0');
+  src:  url('fonts/reneco.eot?3hloo0#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?3hloo0') format('woff2'),
+    url('fonts/reneco.ttf?3hloo0') format('truetype'),
+    url('fonts/reneco.woff?3hloo0') format('woff'),
+    url('fonts/reneco.svg?3hloo0#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -278,6 +279,9 @@
 }
 .reneco-selectarea:before {
   content: "\e678";
+}
+.reneco-subform_grid:before {
+  content: "\e927";
 }
 .reneco-decimal_input:before {
   content: "\e914";
