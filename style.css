@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?bay6jl');
-  src:  url('fonts/reneco.eot?bay6jl#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?bay6jl') format('woff2'),
-    url('fonts/reneco.ttf?bay6jl') format('truetype'),
-    url('fonts/reneco.woff?bay6jl') format('woff'),
-    url('fonts/reneco.svg?bay6jl#reneco') format('svg');
+  src:  url('fonts/reneco.eot?9ypfzs');
+  src:  url('fonts/reneco.eot?9ypfzs#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?9ypfzs') format('woff2'),
+    url('fonts/reneco.ttf?9ypfzs') format('truetype'),
+    url('fonts/reneco.woff?9ypfzs') format('woff'),
+    url('fonts/reneco.svg?9ypfzs#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -684,6 +684,12 @@
 }
 .reneco-TRACK-retraite:before {
   content: "\e919";
+}
+.reneco-TRACK-sortie-falco:before {
+  content: "\e95d";
+}
+.reneco-TRACK-statut-falco:before {
+  content: "\e95e";
 }
 .reneco-TRACK-unknown:before {
   content: "\e629";
