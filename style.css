@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?3hloo0');
-  src:  url('fonts/reneco.eot?3hloo0#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?3hloo0') format('woff2'),
-    url('fonts/reneco.ttf?3hloo0') format('truetype'),
-    url('fonts/reneco.woff?3hloo0') format('woff'),
-    url('fonts/reneco.svg?3hloo0#reneco') format('svg');
+  src:  url('fonts/reneco.eot?bay6jl');
+  src:  url('fonts/reneco.eot?bay6jl#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?bay6jl') format('woff2'),
+    url('fonts/reneco.ttf?bay6jl') format('truetype'),
+    url('fonts/reneco.woff?bay6jl') format('woff'),
+    url('fonts/reneco.svg?bay6jl#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -25,17 +25,146 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.reneco-POS-autre:before {
+  content: "\e928";
+}
+.reneco-POS-batiment:before {
+  content: "\e929";
+}
+.reneco-POS-batterie:before {
+  content: "\e92a";
+}
+.reneco-POS-bloc:before {
+  content: "\e93c";
+}
+.reneco-POS-boite:before {
+  content: "\e93d";
+}
+.reneco-POS-categorie:before {
+  content: "\e93e";
+}
+.reneco-POS-chambre:before {
+  content: "\e93f";
+}
+.reneco-POS-eclosoir:before {
+  content: "\e940";
+}
+.reneco-POS-elevage:before {
+  content: "\e941";
+}
+.reneco-POSemplacement:before {
+  content: "\e942";
+}
+.reneco-POS-incubateur:before {
+  content: "\e943";
+}
+.reneco-POS-incubateur-eclosoir:before {
+  content: "\e944";
+}
+.reneco-POS-ligne:before {
+  content: "\e945";
+}
+.reneco-POS-localisation-conceptuelle:before {
+  content: "\e946";
+}
+.reneco-POS-machine-stockage:before {
+  content: "\e947";
+}
+.reneco-POS-pays .path1:before {
+  content: "\e948";
+  color: rgb(255, 255, 255);
+}
+.reneco-POS-pays .path2:before {
+  content: "\e949";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.reneco-POS-pays .path3:before {
+  content: "\e94a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.reneco-POS-pays .path4:before {
+  content: "\e94b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.reneco-POS-pays .path5:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.reneco-POS-pays .path6:before {
+  content: "\e94d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.reneco-POS-pays .path7:before {
+  content: "\e94e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.reneco-POS-pays .path8:before {
+  content: "\e94f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.reneco-POS-pays .path9:before {
+  content: "\e950";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.reneco-POS-pesonne:before {
+  content: "\e951";
+}
+.reneco-POS-piece:before {
+  content: "\e952";
+}
+.reneco-POS-plateau:before {
+  content: "\e953";
+}
+.reneco-POS-secteur:before {
+  content: "\e954";
+}
+.reneco-POS-site:before {
+  content: "\e955";
+}
+.reneco-POS-t02Cage:before {
+  content: "\e956";
+}
+.reneco-POS-t03Cage:before {
+  content: "\e957";
+}
+.reneco-POS-table:before {
+  content: "\e958";
+}
+.reneco-POS-tunnel:before {
+  content: "\e959";
+}
+.reneco-POS-zone:before {
+  content: "\e95a";
+}
+.reneco-POS-zonegeographique:before {
+  content: "\e95b";
+}
+.reneco-POS-zoo-public:before {
+  content: "\e95c";
+}
 .reneco-chevron_left:before {
   content: "\e668";
+  color: #000;
 }
 .reneco-chevron_right:before {
   content: "\e66f";
+  color: #000;
 }
 .reneco-chevron_top:before {
   content: "\e672";
+  color: #000;
 }
 .reneco-chevron_bottom:before {
   content: "\e682";
+  color: #000;
 }
 .reneco-leftarrow:before {
   content: "\e65b";
@@ -363,9 +492,11 @@
 }
 .reneco-bug_list:before {
   content: "\e683";
+  color: #000;
 }
 .reneco-sample_list2:before {
   content: "\e685";
+  color: #000;
 }
 .reneco-pendingsamples:before {
   content: "\e605";
@@ -400,28 +531,32 @@
 .reneco-rfid:before {
   content: "\e900";
 }
-.reneco-emitters:before {
+.reneco-ECOL-emitters:before {
   content: "\e667";
 }
-.reneco-sample:before {
+.reneco-ECOL-sample:before {
   content: "\e63a";
 }
-.reneco-individualsmall:before {
+.reneco-ECOL-individualsmall:before {
   content: "\e61f";
 }
-.reneco-individual_group:before {
+.reneco-ECOL-individual_group:before {
   content: "\e902";
+  color: #1d1d1b;
 }
-.reneco-ecouvillon:before {
+.reneco-ECOL-ecouvillon:before {
   content: "\e69f";
+  color: #000;
 }
-.reneco-organe:before {
+.reneco-ECOL-organe:before {
   content: "\e69a";
+  color: #000;
 }
-.reneco-bug:before {
+.reneco-ECOL-bug:before {
   content: "\e684";
+  color: #000;
 }
-.reneco-argos:before {
+.reneco-ECO-argos:before {
   content: "\e901";
 }
 .reneco-story:before {
@@ -451,115 +586,106 @@
 .reneco-level6:before {
   content: "\e93b";
 }
-.reneco-top_concept:before {
+.reneco-THE-top_concept:before {
   content: "\e921";
 }
-.reneco-middle_concept:before {
+.reneco-THE-middle_concept:before {
   content: "\e922";
 }
-.reneco-bottom_concept:before {
+.reneco-THE-bottom_concept:before {
   content: "\e923";
 }
-.reneco-sexage:before {
+.reneco-TRACK-sexage:before {
   content: "\e60d";
 }
-.reneco-male:before {
+.reneco-TRACK-male:before {
   content: "\e650";
 }
-.reneco-female:before {
+.reneco-TRACK-female:before {
   content: "\e66d";
 }
-.reneco-give_sell:before {
+.reneco-TRACK-give_sell:before {
   content: "\e60e";
 }
-.reneco-falco:before {
-  content: "\e60f";
-}
-.reneco-ornemental:before {
+.reneco-TRACK-ornemental:before {
   content: "\e610";
 }
-.reneco-hunt:before {
+.reneco-TRACK-hunt:before {
   content: "\e611";
 }
-.reneco-cynegetic:before {
+.reneco-TRACK-cynegetic:before {
   content: "\e612";
 }
-.reneco-rehab:before {
+.reneco-TRACK-rehab:before {
   content: "\e613";
 }
-.reneco-centralised:before {
+.reneco-TRACK-centralised:before {
   content: "\e614";
 }
-.reneco-lost:before {
+.reneco-TRACK-lost:before {
   content: "\e615";
 }
-.reneco-released:before {
+.reneco-TRACK-released:before {
   content: "\e616";
 }
-.reneco-to_release:before {
+.reneco-TRACK-to_release:before {
   content: "\e617";
 }
-.reneco-free:before {
-  content: "\e676";
-}
-.reneco-elevage:before {
-  content: "\e675";
-}
-.reneco-surplus:before {
+.reneco-TRACK-surplus:before {
   content: "\e618";
 }
-.reneco-captivity:before {
+.reneco-TRACK-captivity:before {
   content: "\e619";
 }
-.reneco-half-natural:before {
+.reneco-TRACK-half-natural:before {
   content: "\e61a";
 }
-.reneco-retired:before {
+.reneco-TRACK-retired:before {
   content: "\e61b";
 }
-.reneco-egg:before {
+.reneco-TRACK-egg:before {
   content: "\e61c";
 }
-.reneco-non_inseminated:before {
+.reneco-TRACK-non_inseminated:before {
   content: "\e61d";
 }
-.reneco-broken:before {
+.reneco-TRACK-broken:before {
   content: "\e620";
 }
-.reneco-clear_early:before {
+.reneco-TRACK-clear_early:before {
   content: "\e621";
 }
-.reneco-mid:before {
+.reneco-TRACK-mid:before {
   content: "\e622";
 }
-.reneco-late:before {
+.reneco-TRACK-late:before {
   content: "\e623";
 }
-.reneco-adulte:before {
+.reneco-TRACK-adulte:before {
   content: "\e626";
 }
-.reneco-dead:before {
+.reneco-TRACK-dead:before {
   content: "\e624";
 }
-.reneco-juvenile:before {
+.reneco-TRACK-juvenile:before {
   content: "\e625";
 }
-.reneco-reforme:before {
+.reneco-TRACK-reforme:before {
   content: "\e917";
 }
-.reneco-sentinelle:before {
+.reneco-TRACK-sentinelle:before {
   content: "\e908";
 }
-.reneco-sentinelle2:before {
+.reneco-TRACK-sentinelle2:before {
   content: "\e91b";
 }
-.reneco-not_sentinelle:before {
+.reneco-TRACK-not_sentinelle:before {
   content: "\e925";
 }
-.reneco-retraite:before {
+.reneco-TRACK-retraite:before {
   content: "\e919";
 }
-.reneco-unknown:before {
+.reneco-TRACK-unknown:before {
   content: "\e629";
 }
 .reneco-bustard:before {
@@ -607,32 +733,40 @@
 .reneco-ring:before {
   content: "\e64e";
 }
-.reneco-marker:before {
+.reneco-ECOL-marker:before {
   content: "\e64f";
 }
-.reneco-change_position:before {
+.reneco-ECOL-change_position:before {
   content: "\e6a5";
+  color: #000;
 }
-.reneco-extraction:before {
+.reneco-ECOL-extraction:before {
   content: "\e6a4";
+  color: #000;
 }
-.reneco-send_identification:before {
+.reneco-ECOL-send_identification:before {
   content: "\e6a6";
+  color: #1d1d1b;
 }
-.reneco-return_identification:before {
+.reneco-ECOL-return_identification:before {
   content: "\e6a7";
+  color: #000;
 }
-.reneco-pot:before {
+.reneco-ECOL-pot:before {
   content: "\e6a0";
+  color: #000;
 }
-.reneco-send_labo:before {
+.reneco-ECOL-send_labo:before {
   content: "\e6a1";
+  color: #000;
 }
-.reneco-return_labo:before {
+.reneco-ECOL-return_labo:before {
   content: "\e6a2";
+  color: #000;
 }
-.reneco-centrifuge:before {
+.reneco-ECOL-centrifuge:before {
   content: "\e6a3";
+  color: #000;
 }
 .reneco-worldbig:before {
   content: "\e692";
@@ -640,22 +774,22 @@
 .reneco-worldsmall:before {
   content: "\e693";
 }
-.reneco-ecollectionbig:before {
+.reneco-ECO-ecollectionbig:before {
   content: "\e68d";
 }
-.reneco-ecollectionsmall:before {
+.reneco-ECOL-ecollectionsmall:before {
   content: "\e607";
 }
-.reneco-releve:before {
+.reneco-ECO-releve:before {
   content: "\e68e";
 }
-.reneco-ecorelevesmall:before {
+.reneco-ECO-ecorelevesmall:before {
   content: "\e694";
 }
-.reneco-trackbird:before {
+.reneco-TRACK-trackbird:before {
   content: "\e68f";
 }
-.reneco-tracksmall:before {
+.reneco-TRACK-tracksmall:before {
   content: "\e695";
 }
 .reneco-security:before {
@@ -664,28 +798,34 @@
 .reneco-securitysmall:before {
   content: "\e697";
 }
-.reneco-thesaurus:before {
+.reneco-THE-thesaurus:before {
   content: "\e691";
+  color: #000;
 }
-.reneco-thesaurussmall:before {
+.reneco-THE-thesaurussmall:before {
   content: "\e696";
+  color: #000;
 }
-.reneco-positions:before {
+.reneco-POS-positions:before {
   content: "\e903";
+  color: #000;
 }
-.reneco-positionssmall:before {
+.reneco-POS-positionssmall:before {
   content: "\e904";
+  color: #000;
 }
-.reneco-taxonomies:before {
+.reneco-TAX-taxonomies:before {
   content: "\e905";
+  color: #000;
 }
-.reneco-taxonomiessmall:before {
+.reneco-TAX-taxonomiessmall:before {
   content: "\e906";
+  color: #1d1d1b;
 }
-.reneco-formbuilder:before {
+.reneco-FOR-formbuilder:before {
   content: "\e637";
 }
-.reneco-formbuildersmall:before {
+.reneco-FOR-formbuildersmall:before {
   content: "\e638";
 }
 .reneco-PTR:before {
@@ -700,4 +840,3 @@
 .reneco-postitprintersmall:before {
   content: "\e90c";
 }
-
