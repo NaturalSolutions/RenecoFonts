@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?9ypfzs');
-  src:  url('fonts/reneco.eot?9ypfzs#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?9ypfzs') format('woff2'),
-    url('fonts/reneco.ttf?9ypfzs') format('truetype'),
-    url('fonts/reneco.woff?9ypfzs') format('woff'),
-    url('fonts/reneco.svg?9ypfzs#reneco') format('svg');
+  src:  url('fonts/reneco.eot?e4bsuh');
+  src:  url('fonts/reneco.eot?e4bsuh#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?e4bsuh') format('woff2'),
+    url('fonts/reneco.ttf?e4bsuh') format('truetype'),
+    url('fonts/reneco.woff?e4bsuh') format('woff'),
+    url('fonts/reneco.svg?e4bsuh#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -70,49 +70,8 @@
 .reneco-POS-machine-stockage:before {
   content: "\e947";
 }
-.reneco-POS-pays .path1:before {
+.reneco-POS-pays:before {
   content: "\e948";
-  color: rgb(255, 255, 255);
-}
-.reneco-POS-pays .path2:before {
-  content: "\e949";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.reneco-POS-pays .path3:before {
-  content: "\e94a";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.reneco-POS-pays .path4:before {
-  content: "\e94b";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.reneco-POS-pays .path5:before {
-  content: "\e94c";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.reneco-POS-pays .path6:before {
-  content: "\e94d";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.reneco-POS-pays .path7:before {
-  content: "\e94e";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.reneco-POS-pays .path8:before {
-  content: "\e94f";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.reneco-POS-pays .path9:before {
-  content: "\e950";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
 }
 .reneco-POS-pesonne:before {
   content: "\e951";
@@ -134,6 +93,36 @@
 }
 .reneco-POS-t03Cage:before {
   content: "\e957";
+}
+.reneco-POS-t09Cage:before {
+  content: "\e962";
+}
+.reneco-POS-t10Cage:before {
+  content: "\e963";
+}
+.reneco-POS-t16Cage:before {
+  content: "\e964";
+}
+.reneco-POS-t18Cage:before {
+  content: "\e965";
+}
+.reneco-POS-t20Cage:before {
+  content: "\e966";
+}
+.reneco-POS-t24Cage:before {
+  content: "\e967";
+}
+.reneco-POS-t30Cage:before {
+  content: "\e968";
+}
+.reneco-POS-t52Cage:before {
+  content: "\e969";
+}
+.reneco-POS-t54Cage:before {
+  content: "\e970";
+}
+.reneco-POS-t56Cage:before {
+  content: "\e971";
 }
 .reneco-POS-table:before {
   content: "\e958";
@@ -295,6 +284,24 @@
 .reneco-file:before {
   content: "\e62c";
 }
+.reneco-file_2:before {
+  content: "\e675";
+}
+.reneco-file_doc:before {
+  content: "\e676";
+}
+.reneco-file_jpg:before {
+  content: "\e6a9";
+}
+.reneco-file_pdf:before {
+  content: "\e6aa";
+}
+.reneco-file_png:before {
+  content: "\e6ab";
+}
+.reneco-file_xls:before {
+  content: "\e6ac";
+}
 .reneco-folder:before {
   content: "\e62d";
 }
@@ -321,6 +328,9 @@
 }
 .reneco-info2:before {
   content: "\e920";
+}
+.reneco-textbubble:before {
+  content: "\e6a8";
 }
 .reneco-comment:before {
   content: "\e699";
