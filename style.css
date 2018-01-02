@@ -156,19 +156,15 @@
 }
 .reneco-chevron_left:before {
   content: "\e668";
-  color: #000;
 }
 .reneco-chevron_right:before {
   content: "\e66f";
-  color: #000;
 }
 .reneco-chevron_top:before {
   content: "\e672";
-  color: #000;
 }
 .reneco-chevron_bottom:before {
   content: "\e682";
-  color: #000;
 }
 .reneco-leftarrow:before {
   content: "\e65b";
@@ -517,11 +513,9 @@
 }
 .reneco-bug_list:before {
   content: "\e683";
-  color: #000;
 }
 .reneco-sample_list2:before {
   content: "\e685";
-  color: #000;
 }
 .reneco-pendingsamples:before {
   content: "\e605";
@@ -567,19 +561,15 @@
 }
 .reneco-ECOL-individual_group:before {
   content: "\e902";
-  color: #1d1d1b;
 }
 .reneco-ECOL-ecouvillon:before {
   content: "\e69f";
-  color: #000;
 }
 .reneco-ECOL-organe:before {
   content: "\e69a";
-  color: #000;
 }
 .reneco-ECOL-bug:before {
   content: "\e684";
-  color: #000;
 }
 .reneco-ECO-argos:before {
   content: "\e901";
@@ -769,35 +759,27 @@
 }
 .reneco-ECOL-change_position:before {
   content: "\e6a5";
-  color: #000;
 }
 .reneco-ECOL-extraction:before {
   content: "\e6a4";
-  color: #000;
 }
 .reneco-ECOL-send_identification:before {
   content: "\e6a6";
-  color: #1d1d1b;
 }
 .reneco-ECOL-return_identification:before {
   content: "\e6a7";
-  color: #000;
 }
 .reneco-ECOL-pot:before {
   content: "\e6a0";
-  color: #000;
 }
 .reneco-ECOL-send_labo:before {
   content: "\e6a1";
-  color: #000;
 }
 .reneco-ECOL-return_labo:before {
   content: "\e6a2";
-  color: #000;
 }
 .reneco-ECOL-centrifuge:before {
   content: "\e6a3";
-  color: #000;
 }
 .reneco-worldbig:before {
   content: "\e692";
@@ -831,27 +813,21 @@
 }
 .reneco-THE-thesaurus:before {
   content: "\e691";
-  color: #000;
 }
 .reneco-THE-thesaurussmall:before {
   content: "\e696";
-  color: #000;
 }
 .reneco-POS-positions:before {
   content: "\e903";
-  color: #000;
 }
 .reneco-POS-positionssmall:before {
   content: "\e904";
-  color: #000;
 }
 .reneco-TAX-taxonomies:before {
   content: "\e905";
-  color: #000;
 }
 .reneco-TAX-taxonomiessmall:before {
   content: "\e906";
-  color: #1d1d1b;
 }
 .reneco-FOR-formbuilder:before {
   content: "\e637";
