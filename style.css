@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?e4bsuh');
-  src:  url('fonts/reneco.eot?e4bsuh#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?e4bsuh') format('woff2'),
-    url('fonts/reneco.ttf?e4bsuh') format('truetype'),
-    url('fonts/reneco.woff?e4bsuh') format('woff'),
-    url('fonts/reneco.svg?e4bsuh#reneco') format('svg');
+  src:  url('fonts/reneco.eot?vetvq9');
+  src:  url('fonts/reneco.eot?vetvq9#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?vetvq9') format('woff2'),
+    url('fonts/reneco.ttf?vetvq9') format('truetype'),
+    url('fonts/reneco.woff?vetvq9') format('woff'),
+    url('fonts/reneco.svg?vetvq9#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -25,6 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.reneco-POS-rangee:before {
+  content: "\e973";
+}
+.reneco-POS-couvoir:before {
+  content: "\e974";
+}
+.reneco-POS-cage:before {
+  content: "\e975";
+}
 .reneco-POS-autre:before {
   content: "\e928";
 }
@@ -88,6 +97,9 @@
 .reneco-POS-site:before {
   content: "\e955";
 }
+.reneco-POS-_cage-t:before {
+  content: "\e950";
+}
 .reneco-POS-t02Cage:before {
   content: "\e956";
 }
@@ -111,6 +123,9 @@
 }
 .reneco-POS-t24Cage:before {
   content: "\e967";
+}
+.reneco-POS-_cage-t28:before {
+  content: "\e972";
 }
 .reneco-POS-t30Cage:before {
   content: "\e968";
