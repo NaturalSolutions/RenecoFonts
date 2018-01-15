@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?820k0p');
-  src:  url('fonts/reneco.eot?820k0p#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?820k0p') format('woff2'),
-    url('fonts/reneco.ttf?820k0p') format('truetype'),
-    url('fonts/reneco.woff?820k0p') format('woff'),
-    url('fonts/reneco.svg?820k0p#reneco') format('svg');
+  src:  url('fonts/reneco.eot?86qzp2');
+  src:  url('fonts/reneco.eot?86qzp2#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?86qzp2') format('woff2'),
+    url('fonts/reneco.ttf?86qzp2') format('truetype'),
+    url('fonts/reneco.woff?86qzp2') format('woff'),
+    url('fonts/reneco.svg?86qzp2#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -159,15 +159,19 @@
 }
 .reneco-chevron_left:before {
   content: "\e668";
+  color: #000;
 }
 .reneco-chevron_right:before {
   content: "\e66f";
+  color: #000;
 }
 .reneco-chevron_top:before {
   content: "\e672";
+  color: #000;
 }
 .reneco-chevron_bottom:before {
   content: "\e682";
+  color: #000;
 }
 .reneco-leftarrow:before {
   content: "\e65b";
@@ -516,9 +520,11 @@
 }
 .reneco-bug_list:before {
   content: "\e683";
+  color: #000;
 }
 .reneco-sample_list2:before {
   content: "\e685";
+  color: #000;
 }
 .reneco-pendingsamples:before {
   content: "\e605";
@@ -564,15 +570,19 @@
 }
 .reneco-ECOL-individual_group:before {
   content: "\e902";
+  color: #1d1d1b;
 }
 .reneco-ECOL-ecouvillon:before {
   content: "\e69f";
+  color: #000;
 }
 .reneco-ECOL-organe:before {
   content: "\e69a";
+  color: #000;
 }
 .reneco-ECOL-bug:before {
   content: "\e684";
+  color: #000;
 }
 .reneco-ECO-argos:before {
   content: "\e901";
@@ -613,7 +623,7 @@
 .reneco-THE-bottom_concept:before {
   content: "\e923";
 }
-.reneco-TRACK-sexage:before {
+.reneco-TRACK-sexing:before {
   content: "\e60d";
 }
 .reneco-TRACK-male:before {
@@ -622,25 +632,25 @@
 .reneco-TRACK-female:before {
   content: "\e66d";
 }
-.reneco-TRACK-give_sell:before {
+.reneco-TRACK-donated-sold:before {
   content: "\e60e";
 }
-.reneco-TRACK-ornemental:before {
+.reneco-TRACK-ornamental:before {
   content: "\e610";
 }
-.reneco-TRACK-hunt:before {
+.reneco-TRACK-hunting:before {
   content: "\e611";
 }
 .reneco-TRACK-cynegetic:before {
   content: "\e612";
 }
-.reneco-TRACK-rehab:before {
+.reneco-TRACK-confiscated:before {
   content: "\e613";
 }
 .reneco-TRACK-centralised:before {
   content: "\e614";
 }
-.reneco-TRACK-lost:before {
+.reneco-TRACK-escaped-lost-disappeared:before {
   content: "\e615";
 }
 .reneco-TRACK-released:before {
@@ -649,22 +659,22 @@
 .reneco-TRACK-to_release:before {
   content: "\e617";
 }
-.reneco-TRACK-surplus:before {
+.reneco-TRACK-excess:before {
   content: "\e618";
 }
-.reneco-TRACK-captivity:before {
+.reneco-TRACK-breeder:before {
   content: "\e619";
 }
-.reneco-TRACK-half-natural:before {
+.reneco-TRACK-semi-natural-reproduction:before {
   content: "\e61a";
 }
-.reneco-TRACK-retired:before {
+.reneco-TRACK-removed:before {
   content: "\e61b";
 }
 .reneco-TRACK-egg:before {
   content: "\e61c";
 }
-.reneco-TRACK-non_inseminated:before {
+.reneco-TRACK-non-inseminated:before {
   content: "\e61d";
 }
 .reneco-TRACK-broken:before {
@@ -688,25 +698,22 @@
 .reneco-TRACK-juvenile:before {
   content: "\e625";
 }
-.reneco-TRACK-reforme:before {
+.reneco-TRACK-cull:before {
   content: "\e917";
 }
 .reneco-TRACK-sentinelle:before {
   content: "\e908";
 }
-.reneco-TRACK-sentinelle2:before {
-  content: "\e91b";
-}
 .reneco-TRACK-not_sentinelle:before {
   content: "\e925";
 }
-.reneco-TRACK-retraite:before {
+.reneco-TRACK-retirement:before {
   content: "\e919";
 }
-.reneco-TRACK-sortie-falco:before {
+.reneco-TRACK-exit-falco:before {
   content: "\e95d";
 }
-.reneco-TRACK-statut-falco:before {
+.reneco-TRACK-status-falco:before {
   content: "\e95e";
 }
 .reneco-TRACK-unknown:before {
@@ -762,27 +769,35 @@
 }
 .reneco-ECOL-change_position:before {
   content: "\e6a5";
+  color: #000;
 }
 .reneco-ECOL-extraction:before {
   content: "\e6a4";
+  color: #000;
 }
 .reneco-ECOL-send_identification:before {
   content: "\e6a6";
+  color: #1d1d1b;
 }
 .reneco-ECOL-return_identification:before {
   content: "\e6a7";
+  color: #000;
 }
 .reneco-ECOL-pot:before {
   content: "\e6a0";
+  color: #000;
 }
 .reneco-ECOL-send_labo:before {
   content: "\e6a1";
+  color: #000;
 }
 .reneco-ECOL-return_labo:before {
   content: "\e6a2";
+  color: #000;
 }
 .reneco-ECOL-centrifuge:before {
   content: "\e6a3";
+  color: #000;
 }
 .reneco-worldbig:before {
   content: "\e692";
@@ -816,21 +831,27 @@
 }
 .reneco-THE-thesaurus:before {
   content: "\e691";
+  color: #000;
 }
 .reneco-THE-thesaurussmall:before {
   content: "\e696";
+  color: #000;
 }
 .reneco-POS-positions:before {
   content: "\e903";
+  color: #000;
 }
 .reneco-POS-positionssmall:before {
   content: "\e904";
+  color: #000;
 }
 .reneco-TAX-taxonomies:before {
   content: "\e905";
+  color: #000;
 }
 .reneco-TAX-taxonomiessmall:before {
   content: "\e906";
+  color: #1d1d1b;
 }
 .reneco-FOR-formbuilder:before {
   content: "\e637";

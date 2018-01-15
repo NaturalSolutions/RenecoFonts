@@ -3596,12 +3596,12 @@
           {}
         ],
         "width": 1365,
+        "isMulticolor": false,
+        "isMulticolor2": false,
         "grid": 0,
         "tags": [
           "TRACK-release"
         ],
-        "isMulticolor": false,
-        "isMulticolor2": false,
         "colorPermutations": {
           "1222221125525525512929271": [
             {},
@@ -3620,7 +3620,7 @@
         {}
       ],
       "properties": {
-        "order": 1089,
+        "order": 1321,
         "id": 241,
         "name": "TRACK-relaese",
         "prevSize": 32,
@@ -10015,7 +10015,7 @@
         "order": 1242,
         "prevSize": 32,
         "code": 58893,
-        "name": "TRACK-sexage"
+        "name": "TRACK-sexing"
       },
       "setIdx": 1,
       "setId": 1,
@@ -10122,7 +10122,7 @@
         "order": 1245,
         "prevSize": 32,
         "code": 58894,
-        "name": "TRACK-give_sell"
+        "name": "TRACK-donated-sold"
       },
       "setIdx": 1,
       "setId": 1,
@@ -10157,7 +10157,7 @@
         "order": 1246,
         "prevSize": 32,
         "code": 58896,
-        "name": "TRACK-ornemental"
+        "name": "TRACK-ornamental"
       },
       "setIdx": 1,
       "setId": 1,
@@ -10194,7 +10194,7 @@
         "order": 1247,
         "prevSize": 32,
         "code": 58897,
-        "name": "TRACK-hunt"
+        "name": "TRACK-hunting"
       },
       "setIdx": 1,
       "setId": 1,
@@ -10266,7 +10266,7 @@
         "order": 1249,
         "prevSize": 32,
         "code": 58899,
-        "name": "TRACK-rehab"
+        "name": "TRACK-confiscated"
       },
       "setIdx": 1,
       "setId": 1,
@@ -10336,7 +10336,7 @@
         "order": 1251,
         "prevSize": 32,
         "code": 58901,
-        "name": "TRACK-lost"
+        "name": "TRACK-escaped-lost-disappeared"
       },
       "setIdx": 1,
       "setId": 1,
@@ -10442,7 +10442,7 @@
         "order": 1254,
         "prevSize": 32,
         "code": 58904,
-        "name": "TRACK-surplus"
+        "name": "TRACK-excess"
       },
       "setIdx": 1,
       "setId": 1,
@@ -10478,7 +10478,7 @@
         "order": 1255,
         "prevSize": 32,
         "code": 58905,
-        "name": "TRACK-captivity"
+        "name": "TRACK-breeder"
       },
       "setIdx": 1,
       "setId": 1,
@@ -10514,7 +10514,7 @@
         "order": 1256,
         "prevSize": 32,
         "code": 58906,
-        "name": "TRACK-half-natural"
+        "name": "TRACK-semi-natural-reproduction"
       },
       "setIdx": 1,
       "setId": 1,
@@ -10551,7 +10551,7 @@
         "order": 1257,
         "prevSize": 32,
         "code": 58907,
-        "name": "TRACK-retired"
+        "name": "TRACK-removed"
       },
       "setIdx": 1,
       "setId": 1,
@@ -10622,7 +10622,7 @@
         "order": 1259,
         "prevSize": 32,
         "code": 58909,
-        "name": "TRACK-non_inseminated"
+        "name": "TRACK-non-inseminated"
       },
       "setIdx": 1,
       "setId": 1,
@@ -10914,7 +10914,7 @@
       "properties": {
         "order": 1267,
         "id": 207,
-        "name": "TRACK-reforme",
+        "name": "TRACK-cull",
         "prevSize": 32,
         "code": 59671
       },
@@ -10976,61 +10976,6 @@
       "setIdx": 1,
       "setId": 1,
       "iconIdx": 179
-    },
-    {
-      "icon": {
-        "paths": [
-          "M544.451 522.315l329.729-329.729c4.523-4.223 7.342-10.221 7.342-16.878 0-12.741-10.327-23.069-23.069-23.069-6.658 0-12.655 2.82-16.865 7.329l-329.742 329.744-329.422-329.729c-4.11-3.836-9.642-6.191-15.726-6.191-12.741 0-23.069 10.327-23.069 23.069 0 6.085 2.356 11.619 6.204 15.74l329.409 329.716-329.422 329.422c-4.523 4.223-7.342 10.221-7.342 16.878 0 12.741 10.327 23.069 23.069 23.069 6.658 0 12.655-2.82 16.865-7.329l329.435-329.435 329.729 329.422c4.223 4.523 10.221 7.342 16.878 7.342 12.741 0 23.069-10.327 23.069-23.069 0-6.658-2.82-12.655-7.329-16.865z",
-          "M396.195 558.917v-57.517h19.070l-70.436-70.436v182.397l54.749-54.442h-3.383z",
-          "M516.459 341.456h-108.578l51.057 51.057h57.517c14.1 0 25.529-11.431 25.529-25.529s-11.431-25.529-25.529-25.529z",
-          "M634.571 476.178v92.276l51.057 51.057v-194.701l-51.057 51.367z",
-          "M314.069 247.951h30.758v30.758l51.057 51.057v-81.817h238.376v75.973l51.057-51.057v-24.607h24.607l41.83-41.83c-4.656-5.478-11.552-8.931-19.254-8.931-0.26 0-0.518 0.004-0.775 0.012l-118.382-0.001v-130.416h47.367c0 0 0 0 0 0 14.1 0 25.529-11.431 25.529-25.529s-11.431-25.529-25.529-25.529c0 0 0 0 0 0h-289.744c-0.059 0-0.13-0.001-0.199-0.001-6.848 0-13.065 2.697-17.65 7.084l0.009-0.009c-5.063 4.681-8.222 11.354-8.222 18.767 0 14.1 11.431 25.529 25.529 25.529 0.187 0 0.375-0.001 0.561-0.006h46.417v130.107h-119.035c-0.059 0-0.13-0.001-0.199-0.001-6.848 0-13.065 2.697-17.65 7.084-1.674 1.76-3.112 3.785-4.231 5.999zM467.862 66.785h92.276v130.724h-92.276v-130.416z",
-          "M611.502 697.637l-95.043 71.974-99.658-74.742-36.604 36.604 110.73 83.048v167.94s0 0 0 0c0 14.1 11.431 25.529 25.529 25.529s25.529-11.431 25.529-25.529c0 0 0 0 0 0v-167.94l107.040-80.279z"
-        ],
-        "attrs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
-        ],
-        "isMulticolor": false,
-        "isMulticolor2": false,
-        "grid": 0,
-        "tags": [
-          "track",
-          "sentinelle"
-        ],
-        "colorPermutations": {
-          "1222221125525525512929271": [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
-          ]
-        }
-      },
-      "attrs": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "properties": {
-        "order": 1269,
-        "id": 201,
-        "name": "TRACK-sentinelle2",
-        "prevSize": 32,
-        "code": 59675
-      },
-      "setIdx": 1,
-      "setId": 1,
-      "iconIdx": 180
     },
     {
       "icon": {
@@ -11102,7 +11047,7 @@
       "properties": {
         "order": 1271,
         "id": 204,
-        "name": "TRACK-retraite",
+        "name": "TRACK-retirement",
         "prevSize": 32,
         "code": 59673
       },
@@ -11146,7 +11091,7 @@
       "properties": {
         "order": 1272,
         "id": 233,
-        "name": "TRACK-sortie-falco",
+        "name": "TRACK-exit-falco",
         "prevSize": 32,
         "code": 59741
       },
@@ -11198,7 +11143,7 @@
       "properties": {
         "order": 1273,
         "id": 232,
-        "name": "TRACK-statut-falco",
+        "name": "TRACK-status-falco",
         "prevSize": 32,
         "code": 59742
       },
