@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?86qzp2');
-  src:  url('fonts/reneco.eot?86qzp2#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?86qzp2') format('woff2'),
-    url('fonts/reneco.ttf?86qzp2') format('truetype'),
-    url('fonts/reneco.woff?86qzp2') format('woff'),
-    url('fonts/reneco.svg?86qzp2#reneco') format('svg');
+  src:  url('fonts/reneco.eot?ifh0hj');
+  src:  url('fonts/reneco.eot?ifh0hj#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?ifh0hj') format('woff2'),
+    url('fonts/reneco.ttf?ifh0hj') format('truetype'),
+    url('fonts/reneco.woff?ifh0hj') format('woff'),
+    url('fonts/reneco.svg?ifh0hj#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -153,6 +153,43 @@
 }
 .reneco-POS-zoo-public:before {
   content: "\e95c";
+}
+.reneco-checkbox-false .path1:before {
+  content: "\e91b";
+  color: rgb(233, 233, 233);
+}
+.reneco-checkbox-false .path2:before {
+  content: "\e94a";
+  margin-left: -1em;
+  color: rgb(128, 128, 128);
+}
+.reneco-checkbox-null .path1:before {
+  content: "\e94b";
+  color: rgb(233, 233, 233);
+}
+.reneco-checkbox-null .path2:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: rgb(128, 128, 128);
+}
+.reneco-checkbox-null .path3:before {
+  content: "\e94d";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
+}
+.reneco-checkbox-true .path1:before {
+  content: "\e94e";
+  color: rgb(233, 233, 233);
+}
+.reneco-checkbox-true .path2:before {
+  content: "\e94f";
+  margin-left: -1em;
+  color: rgb(128, 128, 128);
+}
+.reneco-checkbox-true .path3:before {
+  content: "\e95f";
+  margin-left: -1em;
+  color: rgb(53, 166, 98);
 }
 .reneco-TRACK-relaese:before {
   content: "\e949";
