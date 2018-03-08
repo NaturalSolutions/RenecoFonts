@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?ifh0hj');
-  src:  url('fonts/reneco.eot?ifh0hj#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?ifh0hj') format('woff2'),
-    url('fonts/reneco.ttf?ifh0hj') format('truetype'),
-    url('fonts/reneco.woff?ifh0hj') format('woff'),
-    url('fonts/reneco.svg?ifh0hj#reneco') format('svg');
+  src:  url('fonts/reneco.eot?8vj24q');
+  src:  url('fonts/reneco.eot?8vj24q#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?8vj24q') format('woff2'),
+    url('fonts/reneco.ttf?8vj24q') format('truetype'),
+    url('fonts/reneco.woff?8vj24q') format('woff'),
+    url('fonts/reneco.svg?8vj24q#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -25,134 +25,35 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.reneco-POS-rangee:before {
-  content: "\e973";
-}
-.reneco-POS-couvoir:before {
-  content: "\e974";
-}
-.reneco-POS-cage:before {
-  content: "\e975";
-}
-.reneco-POS-autre:before {
+.reneco-reneco-ecollection_fta:before {
   content: "\e928";
 }
-.reneco-POS-batiment:before {
+.reneco-reneco-ecollection_ecouvillion:before {
   content: "\e929";
 }
-.reneco-POS-batterie:before {
+.reneco-reneco-ecollection_gynandromorphe:before {
   content: "\e92a";
 }
-.reneco-POS-bloc:before {
+.reneco-reneco-ecollection_hermaphrodite:before {
   content: "\e93c";
 }
-.reneco-POS-boite:before {
+.reneco-reneco-ecollection_lame:before {
   content: "\e93d";
 }
-.reneco-POS-categorie:before {
+.reneco-reneco-ecollection_pot:before {
   content: "\e93e";
 }
-.reneco-POS-chambre:before {
+.reneco-reneco-ecollection_poumon:before {
   content: "\e93f";
 }
-.reneco-POS-eclosoir:before {
+.reneco-reneco-TRACK-external_destination:before {
   content: "\e940";
 }
-.reneco-POS-elevage:before {
-  content: "\e941";
-}
-.reneco-POSemplacement:before {
+.reneco-reneco-TRACK-incorrect_data:before {
   content: "\e942";
 }
-.reneco-POS-incubateur:before {
+.reneco-reneco-TRACK-not_incubable:before {
   content: "\e943";
-}
-.reneco-POS-incubateur-eclosoir:before {
-  content: "\e944";
-}
-.reneco-POS-ligne:before {
-  content: "\e945";
-}
-.reneco-POS-localisation-conceptuelle:before {
-  content: "\e946";
-}
-.reneco-POS-machine-stockage:before {
-  content: "\e947";
-}
-.reneco-POS-pays:before {
-  content: "\e948";
-}
-.reneco-POS-pesonne:before {
-  content: "\e951";
-}
-.reneco-POS-piece:before {
-  content: "\e952";
-}
-.reneco-POS-plateau:before {
-  content: "\e953";
-}
-.reneco-POS-secteur:before {
-  content: "\e954";
-}
-.reneco-POS-site:before {
-  content: "\e955";
-}
-.reneco-POS-_cage-t:before {
-  content: "\e950";
-}
-.reneco-POS-t02Cage:before {
-  content: "\e956";
-}
-.reneco-POS-t03Cage:before {
-  content: "\e957";
-}
-.reneco-POS-t09Cage:before {
-  content: "\e962";
-}
-.reneco-POS-t10Cage:before {
-  content: "\e963";
-}
-.reneco-POS-t16Cage:before {
-  content: "\e964";
-}
-.reneco-POS-t18Cage:before {
-  content: "\e965";
-}
-.reneco-POS-t20Cage:before {
-  content: "\e966";
-}
-.reneco-POS-t24Cage:before {
-  content: "\e967";
-}
-.reneco-POS-_cage-t28:before {
-  content: "\e972";
-}
-.reneco-POS-t30Cage:before {
-  content: "\e968";
-}
-.reneco-POS-t52Cage:before {
-  content: "\e969";
-}
-.reneco-POS-t54Cage:before {
-  content: "\e970";
-}
-.reneco-POS-t56Cage:before {
-  content: "\e971";
-}
-.reneco-POS-table:before {
-  content: "\e958";
-}
-.reneco-POS-tunnel:before {
-  content: "\e959";
-}
-.reneco-POS-zone:before {
-  content: "\e95a";
-}
-.reneco-POS-zonegeographique:before {
-  content: "\e95b";
-}
-.reneco-POS-zoo-public:before {
-  content: "\e95c";
 }
 .reneco-checkbox-false .path1:before {
   content: "\e91b";
@@ -741,8 +642,11 @@
 .reneco-TRACK-sentinelle:before {
   content: "\e908";
 }
-.reneco-TRACK-not_sentinelle:before {
+.reneco-TRACK-sentinelle2:before {
   content: "\e925";
+}
+.reneco-TRACK-not_sentinelle:before {
+  content: "\e941";
 }
 .reneco-TRACK-retirement:before {
   content: "\e919";
