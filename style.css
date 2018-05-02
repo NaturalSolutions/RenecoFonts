@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?l55xwa');
-  src:  url('fonts/reneco.eot?l55xwa#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?l55xwa') format('woff2'),
-    url('fonts/reneco.ttf?l55xwa') format('truetype'),
-    url('fonts/reneco.woff?l55xwa') format('woff'),
-    url('fonts/reneco.svg?l55xwa#reneco') format('svg');
+  src:  url('fonts/reneco.eot?8segqm');
+  src:  url('fonts/reneco.eot?8segqm#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?8segqm') format('woff2'),
+    url('fonts/reneco.ttf?8segqm') format('truetype'),
+    url('fonts/reneco.woff?8segqm') format('woff'),
+    url('fonts/reneco.svg?8segqm#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -37,61 +37,61 @@
 .reneco-pen:before {
   content: "\e9ce";
 }
-.reneco-reneco-ECORELEVE_location-by-location:before {
+.reneco-ECORELEVE-location-by-location:before {
   content: "\e9cc";
 }
-.reneco-reneco-ECORELEVE_shortcuts:before {
+.reneco-ECORELEVE-shortcuts:before {
   content: "\e9cd";
 }
-.reneco-reneco-ECORELEVE_add-protocol:before {
+.reneco-ECORELEVE-add-protocol:before {
   content: "\e9ba";
 }
-.reneco-reneco-ECORELEVE_delete-station:before {
+.reneco-ECORELEVE-delete-station:before {
   content: "\e9bb";
 }
-.reneco-reneco-ECORELEVE_tag:before {
+.reneco-ECORELEVE-tag:before {
   content: "\e9bc";
 }
-.reneco-reneco-ecollection_main-insects:before {
+.reneco-ECOL-main_insects:before {
   content: "\e9cb";
 }
-.reneco-reneco-ecollection_main-herbarium:before {
+.reneco-ECOL-main_herbarium:before {
   content: "\e9ca";
 }
-.reneco-reneco-ecollection_main-birds:before {
+.reneco-ECOL-main_birds:before {
   content: "\e9c7";
 }
-.reneco-reneco-ecollection_main-organs:before {
+.reneco-ECOL-main_organs:before {
   content: "\e9c6";
 }
-.reneco-reneco-ecollection_mounted-insect-2:before {
+.reneco-ECOL-mounted_insect-2:before {
   content: "\e9c9";
 }
-.reneco-reneco-ecollection_mounted-insect:before {
+.reneco-ECOL-mounted_insect:before {
   content: "\e9c5";
 }
-.reneco-reneco-ecollection_herbarium:before {
+.reneco-ECOL-herbarium:before {
   content: "\e9c4";
 }
-.reneco-reneco-ecollection_fta:before {
+.reneco-ECOL-fta:before {
   content: "\e9c3";
 }
-.reneco-reneco-ecollection_swab:before {
+.reneco-ECOL-swab:before {
   content: "\e9c0";
 }
-.reneco-reneco-ecollection_gynandromorph:before {
+.reneco-ECOL-gynandromorph:before {
   content: "\e9bf";
 }
-.reneco-reneco-ecollection_hermaphrodite:before {
+.reneco-ECOL-hermaphrodite:before {
   content: "\e9c2";
 }
-.reneco-reneco-ecollection_slide:before {
+.reneco-ECOL-slide:before {
   content: "\e9c1";
 }
-.reneco-reneco-ecollection_pot:before {
+.reneco-ECOL_pot:before {
   content: "\e9be";
 }
-.reneco-reneco-ecollection_organs:before {
+.reneco-ECOL-organs:before {
   content: "\e9bd";
 }
 .reneco-POS-voliere .path1:before {
@@ -588,13 +588,13 @@
 .reneco-cible:before {
   content: "\e9c8";
 }
-.reneco-reneco-TRACK-external_destination:before {
+.reneco-TRACK-external_destination:before {
   content: "\e9b7";
 }
-.reneco-reneco-TRACK-incorrect_data:before {
+.reneco-TRACK-incorrect_data:before {
   content: "\e9b8";
 }
-.reneco-reneco-TRACK-not_incubable:before {
+.reneco-TRACK-not_incubable:before {
   content: "\e9b9";
 }
 .reneco-checkbox-false .path1:before {

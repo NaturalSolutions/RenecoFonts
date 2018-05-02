@@ -187,7 +187,7 @@
       "properties": {
         "order": 1422,
         "id": 4,
-        "name": "reneco-ECORELEVE_location-by-location",
+        "name": "ECORELEVE-location-by-location",
         "prevSize": 32,
         "code": 59852
       },
@@ -231,7 +231,7 @@
       "properties": {
         "order": 1421,
         "id": 3,
-        "name": "reneco-ECORELEVE_shortcuts",
+        "name": "ECORELEVE-shortcuts",
         "prevSize": 32,
         "code": 59853
       },
@@ -278,7 +278,7 @@
       "properties": {
         "order": 1351,
         "id": 2,
-        "name": "reneco-ECORELEVE_add-protocol",
+        "name": "ECORELEVE-add-protocol",
         "prevSize": 32,
         "code": 59834
       },
@@ -307,7 +307,7 @@
       "properties": {
         "order": 1352,
         "id": 1,
-        "name": "reneco-ECORELEVE_delete-station",
+        "name": "ECORELEVE-delete-station",
         "prevSize": 32,
         "code": 59835
       },
@@ -339,7 +339,7 @@
       "properties": {
         "order": 1356,
         "id": 0,
-        "name": "reneco-ECORELEVE_tag",
+        "name": "ECORELEVE-tag",
         "prevSize": 32,
         "code": 59836
       },
@@ -389,7 +389,7 @@
       "properties": {
         "order": 1415,
         "id": 17,
-        "name": "reneco-ecollection_main-insects",
+        "name": "ECOL-main_insects",
         "prevSize": 32,
         "code": 59851
       },
@@ -423,7 +423,7 @@
       "properties": {
         "order": 1414,
         "id": 16,
-        "name": "reneco-ecollection_main-herbarium",
+        "name": "ECOL-main_herbarium",
         "prevSize": 32,
         "code": 59850,
         "codes": [
@@ -476,7 +476,7 @@
       "properties": {
         "order": 1400,
         "id": 13,
-        "name": "reneco-ecollection_main-birds",
+        "name": "ECOL-main_birds",
         "prevSize": 32,
         "code": 59847
       },
@@ -526,7 +526,7 @@
       "properties": {
         "order": 1399,
         "id": 12,
-        "name": "reneco-ecollection_main-organs",
+        "name": "ECOL-main_organs",
         "prevSize": 32,
         "code": 59846
       },
@@ -580,7 +580,7 @@
       "properties": {
         "order": 1409,
         "id": 11,
-        "name": "reneco-ecollection_mounted-insect-2",
+        "name": "ECOL-mounted_insect-2",
         "prevSize": 32,
         "code": 59849
       },
@@ -626,7 +626,7 @@
       "properties": {
         "order": 1396,
         "id": 9,
-        "name": "reneco-ecollection_mounted-insect",
+        "name": "ECOL-mounted_insect",
         "prevSize": 32,
         "code": 59845
       },
@@ -692,7 +692,7 @@
       "properties": {
         "order": 1395,
         "id": 8,
-        "name": "reneco-ecollection_herbarium",
+        "name": "ECOL-herbarium",
         "prevSize": 32,
         "code": 59844
       },
@@ -758,7 +758,7 @@
       "properties": {
         "order": 1393,
         "id": 6,
-        "name": "reneco-ecollection_fta",
+        "name": "ECOL-fta",
         "prevSize": 32,
         "code": 59843
       },
@@ -796,7 +796,7 @@
       "properties": {
         "order": 1390,
         "id": 5,
-        "name": "reneco-ecollection_swab",
+        "name": "ECOL-swab",
         "prevSize": 32,
         "code": 59840
       },
@@ -830,7 +830,7 @@
       "properties": {
         "order": 1389,
         "id": 4,
-        "name": "reneco-ecollection_gynandromorph",
+        "name": "ECOL-gynandromorph",
         "prevSize": 32,
         "code": 59839
       },
@@ -864,7 +864,7 @@
       "properties": {
         "order": 1392,
         "id": 3,
-        "name": "reneco-ecollection_hermaphrodite",
+        "name": "ECOL-hermaphrodite",
         "prevSize": 32,
         "code": 59842
       },
@@ -906,7 +906,7 @@
       "properties": {
         "order": 1391,
         "id": 2,
-        "name": "reneco-ecollection_slide",
+        "name": "ECOL-slide",
         "prevSize": 32,
         "code": 59841
       },
@@ -940,7 +940,7 @@
       "properties": {
         "order": 1388,
         "id": 1,
-        "name": "reneco-ecollection_pot",
+        "name": "ECOL_pot",
         "prevSize": 32,
         "code": 59838
       },
@@ -974,7 +974,7 @@
       "properties": {
         "order": 1387,
         "id": 0,
-        "name": "reneco-ecollection_organs",
+        "name": "ECOL-organs",
         "prevSize": 32,
         "code": 59837
       },
@@ -5568,7 +5568,7 @@
       "properties": {
         "order": 1346,
         "id": 247,
-        "name": "reneco-TRACK-external_destination",
+        "name": "TRACK-external_destination",
         "prevSize": 32,
         "code": 59831
       },
@@ -5618,7 +5618,7 @@
       "properties": {
         "order": 1347,
         "id": 246,
-        "name": "reneco-TRACK-incorrect_data",
+        "name": "TRACK-incorrect_data",
         "prevSize": 32,
         "code": 59832
       },
@@ -5652,7 +5652,7 @@
       "properties": {
         "order": 1348,
         "id": 245,
-        "name": "reneco-TRACK-not_incubable",
+        "name": "TRACK-not_incubable",
         "prevSize": 32,
         "code": 59833
       },
