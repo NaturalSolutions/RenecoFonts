@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?yxnlfs');
-  src:  url('fonts/reneco.eot?yxnlfs#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?yxnlfs') format('woff2'),
-    url('fonts/reneco.ttf?yxnlfs') format('truetype'),
-    url('fonts/reneco.woff?yxnlfs') format('woff'),
-    url('fonts/reneco.svg?yxnlfs#reneco') format('svg');
+  src:  url('fonts/reneco.eot?l55xwa');
+  src:  url('fonts/reneco.eot?l55xwa#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?l55xwa') format('woff2'),
+    url('fonts/reneco.ttf?l55xwa') format('truetype'),
+    url('fonts/reneco.woff?l55xwa') format('woff'),
+    url('fonts/reneco.svg?l55xwa#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -25,6 +25,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.reneco-space:before {
+  content: "\e9cf";
+}
+.reneco-right:before {
+  content: "\e9d0";
+}
+.reneco-left:before {
+  content: "\e9d1";
+}
+.reneco-pen:before {
+  content: "\e9ce";
+}
+.reneco-reneco-ECORELEVE_location-by-location:before {
+  content: "\e9cc";
+}
+.reneco-reneco-ECORELEVE_shortcuts:before {
+  content: "\e9cd";
+}
 .reneco-reneco-ECORELEVE_add-protocol:before {
   content: "\e9ba";
 }
@@ -563,6 +581,9 @@
 }
 .reneco-POS-zoo-public:before {
   content: "\e95c";
+}
+.reneco-TRACK-data_transfer:before {
+  content: "\e9d2";
 }
 .reneco-cible:before {
   content: "\e9c8";
@@ -1288,6 +1309,9 @@
 .reneco-security:before {
   content: "\e690";
 }
+.reneco-securitysmall:before {
+  content: "\e697";
+}
 .reneco-THE-thesaurus:before {
   content: "\e691";
   color: #000;
@@ -1329,7 +1353,4 @@
 }
 .reneco-postitprintersmall:before {
   content: "\e90c";
-}
-.reneco-securitysmall:before {
-  content: "\e697";
 }
