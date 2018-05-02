@@ -1,11 +1,20 @@
 @font-face {
   font-family: 'reneco';
+<<<<<<< HEAD
   src:  url('fonts/reneco.eot?l55xwa');
   src:  url('fonts/reneco.eot?l55xwa#iefix') format('embedded-opentype'),
     url('fonts/reneco.woff2?l55xwa') format('woff2'),
     url('fonts/reneco.ttf?l55xwa') format('truetype'),
     url('fonts/reneco.woff?l55xwa') format('woff'),
     url('fonts/reneco.svg?l55xwa#reneco') format('svg');
+=======
+  src:  url('fonts/reneco.eot?8epvbw');
+  src:  url('fonts/reneco.eot?8epvbw#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?8epvbw') format('woff2'),
+    url('fonts/reneco.ttf?8epvbw') format('truetype'),
+    url('fonts/reneco.woff?8epvbw') format('woff'),
+    url('fonts/reneco.svg?8epvbw#reneco') format('svg');
+>>>>>>> 52d570645851dc37532d1fa4401be37c22a81590
   font-weight: normal;
   font-style: normal;
 }
@@ -25,6 +34,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+<<<<<<< HEAD
 .reneco-space:before {
   content: "\e9cf";
 }
@@ -37,6 +47,8 @@
 .reneco-pen:before {
   content: "\e9ce";
 }
+=======
+>>>>>>> 52d570645851dc37532d1fa4401be37c22a81590
 .reneco-reneco-ECORELEVE_location-by-location:before {
   content: "\e9cc";
 }
@@ -694,9 +706,6 @@
 }
 .reneco-pause:before {
   content: "\e92b";
-}
-.reneco-play:before {
-  content: "\e665";
 }
 .reneco-forward:before {
   content: "\e666";
