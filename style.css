@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?8segqm');
-  src:  url('fonts/reneco.eot?8segqm#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?8segqm') format('woff2'),
-    url('fonts/reneco.ttf?8segqm') format('truetype'),
-    url('fonts/reneco.woff?8segqm') format('woff'),
-    url('fonts/reneco.svg?8segqm#reneco') format('svg');
+  src:  url('fonts/reneco.eot?f8vnn8');
+  src:  url('fonts/reneco.eot?f8vnn8#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?f8vnn8') format('woff2'),
+    url('fonts/reneco.ttf?f8vnn8') format('truetype'),
+    url('fonts/reneco.woff?f8vnn8') format('woff'),
+    url('fonts/reneco.svg?f8vnn8#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -581,6 +581,9 @@
 }
 .reneco-POS-zoo-public:before {
   content: "\e95c";
+}
+.reneco-TRACK-on_site:before {
+  content: "\e9d3";
 }
 .reneco-TRACK-data_transfer:before {
   content: "\e9d2";
