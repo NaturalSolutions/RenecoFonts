@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?f8vnn8');
-  src:  url('fonts/reneco.eot?f8vnn8#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?f8vnn8') format('woff2'),
-    url('fonts/reneco.ttf?f8vnn8') format('truetype'),
-    url('fonts/reneco.woff?f8vnn8') format('woff'),
-    url('fonts/reneco.svg?f8vnn8#reneco') format('svg');
+  src:  url('fonts/reneco.eot?iwvxt3');
+  src:  url('fonts/reneco.eot?iwvxt3#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?iwvxt3') format('woff2'),
+    url('fonts/reneco.ttf?iwvxt3') format('truetype'),
+    url('fonts/reneco.woff?iwvxt3') format('woff'),
+    url('fonts/reneco.svg?iwvxt3#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -25,16 +25,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.reneco-space:before {
+.reneco-ECORELEVE_edit-station:before {
+  content: "\e9d4";
+}
+.reneco-ECORELEVE_space:before {
   content: "\e9cf";
 }
-.reneco-right:before {
+.reneco-ECORELEVE_right:before {
   content: "\e9d0";
 }
-.reneco-left:before {
+.reneco-ECORELEVE_left:before {
   content: "\e9d1";
 }
-.reneco-pen:before {
+.reneco-ECORELEVE_pen:before {
   content: "\e9ce";
 }
 .reneco-ECORELEVE-location-by-location:before {
