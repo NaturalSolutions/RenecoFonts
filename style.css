@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?iwvxt3');
-  src:  url('fonts/reneco.eot?iwvxt3#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?iwvxt3') format('woff2'),
-    url('fonts/reneco.ttf?iwvxt3') format('truetype'),
-    url('fonts/reneco.woff?iwvxt3') format('woff'),
-    url('fonts/reneco.svg?iwvxt3#reneco') format('svg');
+  src:  url('fonts/reneco.eot?cn8e4s');
+  src:  url('fonts/reneco.eot?cn8e4s#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?cn8e4s') format('woff2'),
+    url('fonts/reneco.ttf?cn8e4s') format('truetype'),
+    url('fonts/reneco.woff?cn8e4s') format('woff'),
+    url('fonts/reneco.svg?cn8e4s#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -25,6 +25,63 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.reneco-ECORELEVE_1:before {
+  content: "\e9d5";
+}
+.reneco-ECORELEVE_2:before {
+  content: "\e9d6";
+}
+.reneco-ECORELEVE_3:before {
+  content: "\e9d7";
+}
+.reneco-ECORELEVE_4:before {
+  content: "\e9d8";
+}
+.reneco-ECORELEVE_5:before {
+  content: "\e9d9";
+}
+.reneco-ECORELEVE_BACKSPACE:before {
+  content: "\e9da";
+}
+.reneco-ECORELEVE_DELETE:before {
+  content: "\e9db";
+}
+.reneco-ECORELEVE_DOWN:before {
+  content: "\e9dc";
+}
+.reneco-ECORELEVE_END:before {
+  content: "\e9dd";
+}
+.reneco-ECORELEVE_ENTER:before {
+  content: "\e9de";
+}
+.reneco-ECORELEVE_ESCAPE:before {
+  content: "\e9df";
+}
+.reneco-ECORELEVE_HOME:before {
+  content: "\e9e0";
+}
+.reneco-ECORELEVE_INSERT:before {
+  content: "\e9e1";
+}
+.reneco-ECORELEVE_LESS:before {
+  content: "\e9e2";
+}
+.reneco-ECORELEVE_PAGEDOWN:before {
+  content: "\e9e3";
+}
+.reneco-ECORELEVE_PAGEUP:before {
+  content: "\e9e4";
+}
+.reneco-ECORELEVE_PLUS:before {
+  content: "\e9e5";
+}
+.reneco-ECORELEVE_TAB:before {
+  content: "\e9e6";
+}
+.reneco-ECORELEVE_UP:before {
+  content: "\e9e7";
+}
 .reneco-ECORELEVE_edit-station:before {
   content: "\e9d4";
 }
@@ -1068,7 +1125,6 @@
 }
 .reneco-ECOL-bug:before {
   content: "\e684";
-  color: #000;
 }
 .reneco-ECO-argos:before {
   content: "\e901";
