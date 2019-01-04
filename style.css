@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?73lus6');
-  src:  url('fonts/reneco.eot?73lus6#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?73lus6') format('woff2'),
-    url('fonts/reneco.ttf?73lus6') format('truetype'),
-    url('fonts/reneco.woff?73lus6') format('woff'),
-    url('fonts/reneco.svg?73lus6#reneco') format('svg');
+  src:  url('fonts/reneco.eot?r79s7b');
+  src:  url('fonts/reneco.eot?r79s7b#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?r79s7b') format('woff2'),
+    url('fonts/reneco.ttf?r79s7b') format('truetype'),
+    url('fonts/reneco.woff?r79s7b') format('woff'),
+    url('fonts/reneco.svg?r79s7b#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -685,14 +685,8 @@
 .reneco-checkbox-empty:before {
   content: "\e9f6";
 }
-.reneco-checkbox-full .path1:before {
+.reneco-checkbox-full:before {
   content: "\e9f7";
-  color: rgb(0, 0, 0);
-}
-.reneco-checkbox-full .path2:before {
-  content: "\e9f8";
-  margin-left: -1em;
-  color: rgb(51, 163, 95);
 }
 .reneco-data-centralisation:before {
   content: "\e9f2";
