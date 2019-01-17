@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?z4qq31');
-  src:  url('fonts/reneco.eot?z4qq31#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?z4qq31') format('woff2'),
-    url('fonts/reneco.ttf?z4qq31') format('truetype'),
-    url('fonts/reneco.woff?z4qq31') format('woff'),
-    url('fonts/reneco.svg?z4qq31#reneco') format('svg');
+  src:  url('fonts/reneco.eot?rmphst');
+  src:  url('fonts/reneco.eot?rmphst#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?rmphst') format('woff2'),
+    url('fonts/reneco.ttf?rmphst') format('truetype'),
+    url('fonts/reneco.woff?rmphst') format('woff'),
+    url('fonts/reneco.svg?rmphst#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -705,6 +705,9 @@
 }
 .reneco-POS-zoo-public:before {
   content: "\e95c";
+}
+.reneco-logo-ns:before {
+  content: "\ea03";
 }
 .reneco-console-admin_icon:before {
   content: "\ea00";
