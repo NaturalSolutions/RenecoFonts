@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?rmphst');
-  src:  url('fonts/reneco.eot?rmphst#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?rmphst') format('woff2'),
-    url('fonts/reneco.ttf?rmphst') format('truetype'),
-    url('fonts/reneco.woff?rmphst') format('woff'),
-    url('fonts/reneco.svg?rmphst#reneco') format('svg');
+  src:  url('fonts/reneco.eot?8penev');
+  src:  url('fonts/reneco.eot?8penev#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?8penev') format('woff2'),
+    url('fonts/reneco.ttf?8penev') format('truetype'),
+    url('fonts/reneco.woff?8penev') format('woff'),
+    url('fonts/reneco.svg?8penev#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -25,6 +25,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.reneco-affichage_horizontal:before {
+  content: "\ea04";
+}
+.reneco-affichage_horizontal-empty:before {
+  content: "\ea05";
+}
+.reneco-affichage_T:before {
+  content: "\ea06";
+}
+.reneco-affichage_T-empty:before {
+  content: "\ea07";
+}
+.reneco-affichage_vertical:before {
+  content: "\ea08";
+}
+.reneco-affichage_vertical-empty:before {
+  content: "\ea09";
+}
 .reneco-logout:before {
   content: "\e9ff";
 }
