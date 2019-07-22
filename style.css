@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?j7535l');
-  src:  url('fonts/reneco.eot?j7535l#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?j7535l') format('woff2'),
-    url('fonts/reneco.ttf?j7535l') format('truetype'),
-    url('fonts/reneco.woff?j7535l') format('woff'),
-    url('fonts/reneco.svg?j7535l#reneco') format('svg');
+  src:  url('fonts/reneco.eot?wrv2l1');
+  src:  url('fonts/reneco.eot?wrv2l1#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?wrv2l1') format('woff2'),
+    url('fonts/reneco.ttf?wrv2l1') format('truetype'),
+    url('fonts/reneco.woff?wrv2l1') format('woff'),
+    url('fonts/reneco.svg?wrv2l1#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
 }
