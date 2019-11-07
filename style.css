@@ -1,24 +1,24 @@
 @font-face {
   font-family: 'reneco';
-<<<<<<< HEAD
-  src:  url('fonts/reneco.eot?5jb0ff');
-  src:  url('fonts/reneco.eot?5jb0ff#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?5jb0ff') format('woff2'),
-    url('fonts/reneco.ttf?5jb0ff') format('truetype'),
-    url('fonts/reneco.woff?5jb0ff') format('woff'),
-    url('fonts/reneco.svg?5jb0ff#reneco') format('svg');
-=======
   src:  url('fonts/reneco.eot?owhkyx');
   src:  url('fonts/reneco.eot?owhkyx#iefix') format('embedded-opentype'),
     url('fonts/reneco.woff2?owhkyx') format('woff2'),
     url('fonts/reneco.ttf?owhkyx') format('truetype'),
     url('fonts/reneco.woff?owhkyx') format('woff'),
     url('fonts/reneco.svg?owhkyx#reneco') format('svg');
->>>>>>> 988104c7676e6a7c7f175c23794ec2cbc0248b3b
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
+
+/*
+src:  url('fonts/reneco.eot?5jb0ff');
+  src:  url('fonts/reneco.eot?5jb0ff#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?5jb0ff') format('woff2'),
+    url('fonts/reneco.ttf?5jb0ff') format('truetype'),
+    url('fonts/reneco.woff?5jb0ff') format('woff'),
+    url('fonts/reneco.svg?5jb0ff#reneco') format('svg');
+*/
 
 .reneco {
   /* use !important to prevent issues with browser extensions that change fonts */
