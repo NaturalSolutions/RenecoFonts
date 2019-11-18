@@ -1,20 +1,11 @@
 @font-face {
   font-family: 'reneco';
-<<<<<<< HEAD
-  src:  url('fonts/reneco.eot?5jb0ff');
-  src:  url('fonts/reneco.eot?5jb0ff#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?5jb0ff') format('woff2'),
-    url('fonts/reneco.ttf?5jb0ff') format('truetype'),
-    url('fonts/reneco.woff?5jb0ff') format('woff'),
-    url('fonts/reneco.svg?5jb0ff#reneco') format('svg');
-=======
-  src:  url('fonts/reneco.eot?owhkyx');
-  src:  url('fonts/reneco.eot?owhkyx#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?owhkyx') format('woff2'),
-    url('fonts/reneco.ttf?owhkyx') format('truetype'),
-    url('fonts/reneco.woff?owhkyx') format('woff'),
-    url('fonts/reneco.svg?owhkyx#reneco') format('svg');
->>>>>>> 988104c7676e6a7c7f175c23794ec2cbc0248b3b
+  src:  url('fonts/reneco.eot?1ajyt9');
+  src:  url('fonts/reneco.eot?1ajyt9#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?1ajyt9') format('woff2'),
+    url('fonts/reneco.ttf?1ajyt9') format('truetype'),
+    url('fonts/reneco.woff?1ajyt9') format('woff'),
+    url('fonts/reneco.svg?1ajyt9#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -742,6 +733,9 @@
 }
 .reneco-POS-zoo-public:before {
   content: "\e95c";
+}
+.reneco-QRTAG-logo:before {
+  content: "\ea0f";
 }
 .reneco-TRACK-HNV:before {
   content: "\ea0e";
