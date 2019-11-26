@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?3q8xwz');
-  src:  url('fonts/reneco.eot?3q8xwz#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?3q8xwz') format('woff2'),
-    url('fonts/reneco.ttf?3q8xwz') format('truetype'),
-    url('fonts/reneco.woff?3q8xwz') format('woff'),
-    url('fonts/reneco.svg?3q8xwz#reneco') format('svg');
+  src:  url('fonts/reneco.eot?gqst2l');
+  src:  url('fonts/reneco.eot?gqst2l#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?gqst2l') format('woff2'),
+    url('fonts/reneco.ttf?gqst2l') format('truetype'),
+    url('fonts/reneco.woff?gqst2l') format('woff'),
+    url('fonts/reneco.svg?gqst2l#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -734,26 +734,10 @@
 .reneco-POS-zoo-public:before {
   content: "\e95c";
 }
-.reneco-instances .path1:before {
+.reneco-instances:before {
   content: "\ea10";
-  color: rgb(0, 0, 0);
 }
-.reneco-instances .path2:before {
-  content: "\ea11";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.reneco-instances .path3:before {
-  content: "\ea12";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.reneco-instances .path4:before {
-  content: "\ea13";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.reneco-all_sites:before {
+.reneco-all-sites:before {
   content: "\ea14";
 }
 .reneco-QRTAG-logo:before {
