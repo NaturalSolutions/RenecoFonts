@@ -1,17 +1,17 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?gqst2l');
-  src:  url('fonts/reneco.eot?gqst2l#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?gqst2l') format('woff2'),
-    url('fonts/reneco.ttf?gqst2l') format('truetype'),
-    url('fonts/reneco.woff?gqst2l') format('woff'),
-    url('fonts/reneco.svg?gqst2l#reneco') format('svg');
+  src:  url('fonts/reneco.eot?q5cejg');
+  src:  url('fonts/reneco.eot?q5cejg#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?q5cejg') format('woff2'),
+    url('fonts/reneco.ttf?q5cejg') format('truetype'),
+    url('fonts/reneco.woff?q5cejg') format('woff'),
+    url('fonts/reneco.svg?q5cejg#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-.reneco {
+[class^="reneco-"], [class*=" reneco-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'reneco' !important;
   speak: none;
@@ -26,6 +26,828 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.reneco-FOR-formbuilder:before {
+  content: "\e637";
+}
+.reneco-FOR-formbuilder_small:before {
+  content: "\e638";
+}
+.reneco-FOR-group:before {
+  content: "\e639";
+}
+.reneco-FOR-mask:before {
+  content: "\e645";
+}
+.reneco-FOR-tree_autocomplete:before {
+  content: "\e646";
+}
+.reneco-FOR-tree:before {
+  content: "\e647";
+}
+.reneco-FOR-autocomplete:before {
+  content: "\e648";
+}
+.reneco-FOR-separator:before {
+  content: "\e649";
+}
+.reneco-FOR-subform_grid:before {
+  content: "\e927";
+}
+.reneco-FOR-decimal_input:before {
+  content: "\e914";
+}
+.reneco-FOR-duplicate:before {
+  content: "\e604";
+}
+.reneco-FOR-text:before {
+  content: "\e63b";
+}
+.reneco-FOR-file_2:before {
+  content: "\e643";
+}
+.reneco-FOR-numeric:before {
+  content: "\e63c";
+}
+.reneco-FOR-long_text:before {
+  content: "\e63d";
+}
+.reneco-FOR-cursor:before {
+  content: "\e63e";
+}
+.reneco-FOR-image_file:before {
+  content: "\e913";
+}
+.reneco-CENT-historic:before {
+  content: "\ea0b";
+}
+.reneco-CENT-tuile:before {
+  content: "\e9f2";
+}
+.reneco-CENT-logo:before {
+  content: "\e9f4";
+}
+.reneco-THE-top_concept:before {
+  content: "\e921";
+}
+.reneco-THE-middle_concept:before {
+  content: "\e922";
+}
+.reneco-THE-bottom_concept:before {
+  content: "\e923";
+}
+.reneco-THE-thesaurus:before {
+  content: "\e691";
+  color: #000;
+}
+.reneco-THE-thesaurussmall:before {
+  content: "\e696";
+  color: #000;
+}
+.reneco-TRACK-sexing:before {
+  content: "\e60d";
+}
+.reneco-TRACK-male:before {
+  content: "\e650";
+}
+.reneco-TRACK-female:before {
+  content: "\e66d";
+}
+.reneco-TRACK-trackbird:before {
+  content: "\e68f";
+}
+.reneco-TRACK-tracksmall:before {
+  content: "\e695";
+}
+.reneco-TRACK-donated-sold:before {
+  content: "\e60e";
+}
+.reneco-TRACK-ornamental:before {
+  content: "\e610";
+}
+.reneco-TRACK-hunting:before {
+  content: "\e611";
+}
+.reneco-TRACK-cynegetic:before {
+  content: "\e612";
+}
+.reneco-TRACK-confiscated:before {
+  content: "\e613";
+}
+.reneco-TRACK-centralised:before {
+  content: "\e614";
+}
+.reneco-TRACK-escaped-lost-disappeared:before {
+  content: "\e615";
+}
+.reneco-TRACK-released:before {
+  content: "\e616";
+}
+.reneco-TRACK-to_release:before {
+  content: "\e617";
+}
+.reneco-TRACK-excess:before {
+  content: "\e618";
+}
+.reneco-TRACK-breeder:before {
+  content: "\e619";
+}
+.reneco-TRACK-semi-natural-reproduction:before {
+  content: "\e61a";
+}
+.reneco-TRACK-removed:before {
+  content: "\e61b";
+}
+.reneco-TRACK-egg:before {
+  content: "\e61c";
+}
+.reneco-TRACK-non-inseminated:before {
+  content: "\e61d";
+}
+.reneco-TRACK-broken:before {
+  content: "\e620";
+}
+.reneco-TRACK-clear_early:before {
+  content: "\e621";
+}
+.reneco-TRACK-mid:before {
+  content: "\e622";
+}
+.reneco-TRACK-late:before {
+  content: "\e623";
+}
+.reneco-TRACK-adulte:before {
+  content: "\e626";
+}
+.reneco-TRACK-dead:before {
+  content: "\e624";
+}
+.reneco-TRACK-juvenile:before {
+  content: "\e625";
+}
+.reneco-TRACK-cull:before {
+  content: "\e917";
+}
+.reneco-TRACK-sentinelle:before {
+  content: "\e908";
+}
+.reneco-TRACK-sentinelle2:before {
+  content: "\e925";
+}
+.reneco-TRACK-not_sentinelle:before {
+  content: "\e941";
+}
+.reneco-TRACK-retirement:before {
+  content: "\e919";
+}
+.reneco-TRACK-exit-falco:before {
+  content: "\e95d";
+}
+.reneco-TRACK-status-falco:before {
+  content: "\e95e";
+}
+.reneco-TRACK-unknown:before {
+  content: "\e629";
+}
+.reneco-TRACK-on_site:before {
+  content: "\e9d3";
+}
+.reneco-TRACK-data_transfer:before {
+  content: "\e9d2";
+}
+.reneco-TRACK-external_destination:before {
+  content: "\e9b7";
+}
+.reneco-TRACK-incorrect_data:before {
+  content: "\e9b8";
+}
+.reneco-TRACK-not_incubable:before {
+  content: "\e9b9";
+}
+.reneco-TRACK-relaese:before {
+  content: "\e949";
+}
+.reneco-TRACK-HNV:before {
+  content: "\ea0e";
+}
+.reneco-ECO-releve:before {
+  content: "\e68e";
+}
+.reneco-ECO-ecorelevesmall:before {
+  content: "\e694";
+}
+.reneco-ECO-ecollectionbig:before {
+  content: "\e68d";
+}
+.reneco-ECOL-ecollectionsmall:before {
+  content: "\e607";
+}
+.reneco-ECOL-change_position:before {
+  content: "\e6a5";
+  color: #000;
+}
+.reneco-ECOL-extraction:before {
+  content: "\e6a4";
+  color: #000;
+}
+.reneco-ECOL-send_identification:before {
+  content: "\e6a6";
+  color: #1d1d1b;
+}
+.reneco-ECOL-return_identification:before {
+  content: "\e6a7";
+  color: #000;
+}
+.reneco-ECOL-pot:before {
+  content: "\e6a0";
+  color: #000;
+}
+.reneco-ECOL-send_labo:before {
+  content: "\e6a1";
+  color: #000;
+}
+.reneco-ECOL-return_labo:before {
+  content: "\e6a2";
+  color: #000;
+}
+.reneco-ECOL-centrifuge:before {
+  content: "\e6a3";
+  color: #000;
+}
+.reneco-ECOL-sample:before {
+  content: "\e63a";
+}
+.reneco-ECOL-individualsmall:before {
+  content: "\e61f";
+}
+.reneco-ECOL-individual_group:before {
+  content: "\e902";
+  color: #1d1d1b;
+}
+.reneco-ECOL-ecouvillon:before {
+  content: "\e69f";
+  color: #000;
+}
+.reneco-ECOL-organe:before {
+  content: "\e69a";
+  color: #000;
+}
+.reneco-ECOL-bug:before {
+  content: "\e684";
+}
+.reneco-ECO-argos:before {
+  content: "\e901";
+}
+.reneco-ECOL-marker:before {
+  content: "\e64f";
+}
+.reneco-POS-positions:before {
+  content: "\e903";
+  color: #000;
+}
+.reneco-POS-positionssmall:before {
+  content: "\e904";
+  color: #000;
+}
+.reneco-cible:before {
+  content: "\e9c8";
+}
+.reneco-instances:before {
+  content: "\ea10";
+}
+.reneco-all-sites:before {
+  content: "\ea14";
+}
+.reneco-QRTAG-logo:before {
+  content: "\ea0f";
+}
+.reneco-logo-ns:before {
+  content: "\ea03";
+}
+.reneco-console-admin_icon:before {
+  content: "\ea00";
+}
+.reneco-console-admin_tuile:before {
+  content: "\ea01";
+}
+.reneco-none:before {
+  content: "\ea02";
+}
+.reneco-checkbox-empty:before {
+  content: "\e9f6";
+}
+.reneco-checkbox-full:before {
+  content: "\e9f7";
+}
+.reneco-reneco-apps1:before {
+  content: "\e9f3";
+}
+.reneco-tuile2:before {
+  content: "\e9f3";
+}
+.reneco-reneco-apps:before {
+  content: "\e9f5";
+}
+.reneco-checkbox-false .path1:before {
+  content: "\e91b";
+  color: rgb(233, 233, 233);
+}
+.reneco-checkbox-false .path2:before {
+  content: "\e94a";
+  margin-left: -1em;
+  color: rgb(128, 128, 128);
+}
+.reneco-checkbox-null .path1:before {
+  content: "\e94b";
+  color: rgb(233, 233, 233);
+}
+.reneco-checkbox-null .path2:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: rgb(128, 128, 128);
+}
+.reneco-checkbox-null .path3:before {
+  content: "\e94d";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
+}
+.reneco-checkbox-true .path1:before {
+  content: "\e94e";
+  color: rgb(233, 233, 233);
+}
+.reneco-checkbox-true .path2:before {
+  content: "\e94f";
+  margin-left: -1em;
+  color: rgb(128, 128, 128);
+}
+.reneco-checkbox-true .path3:before {
+  content: "\e95f";
+  margin-left: -1em;
+  color: rgb(53, 166, 98);
+}
+.reneco-chevron_left:before {
+  content: "\e668";
+  color: #000;
+}
+.reneco-chevron_right:before {
+  content: "\e66f";
+  color: #000;
+}
+.reneco-chevron_top:before {
+  content: "\e672";
+  color: #000;
+}
+.reneco-chevron_bottom:before {
+  content: "\e682";
+  color: #000;
+}
+.reneco-leftarrow:before {
+  content: "\e65b";
+}
+.reneco-rightarrow:before {
+  content: "\e65c";
+}
+.reneco-add:before {
+  content: "\e65d";
+}
+.reneco-checked:before {
+  content: "\e62a";
+}
+.reneco-close:before {
+  content: "\e65e";
+}
+.reneco-syncing:before {
+  content: "\e65a";
+}
+.reneco-search2:before {
+  content: "\e65f";
+}
+.reneco-edit:before {
+  content: "\e669";
+}
+.reneco-back:before {
+  content: "\e69e";
+}
+.reneco-share:before {
+  content: "\e91f";
+}
+.reneco-inter_app_link:before {
+  content: "\e91a";
+}
+.reneco-rewind:before {
+  content: "\e664";
+}
+.reneco-back2:before {
+  content: "\e916";
+}
+.reneco-pause:before {
+  content: "\e92b";
+}
+.reneco-play:before {
+  content: "\e665";
+}
+.reneco-forward:before {
+  content: "\e666";
+}
+.reneco-menu:before {
+  content: "\e674";
+}
+.reneco-list:before {
+  content: "\e932";
+}
+.reneco-trash:before {
+  content: "\e681";
+}
+.reneco-protocol:before {
+  content: "\e602";
+}
+.reneco-drag2:before {
+  content: "\e603";
+}
+.reneco-drag_thin:before {
+  content: "\e62b";
+}
+.reneco-fit:before {
+  content: "\e67d";
+}
+.reneco-write:before {
+  content: "\e64b";
+}
+.reneco-print:before {
+  content: "\e924";
+}
+.reneco-calendar:before {
+  content: "\e67a";
+}
+.reneco-pin2:before {
+  content: "\e66c";
+}
+.reneco-connect:before {
+  content: "\e915";
+}
+.reneco-search:before {
+  content: "\e61e";
+}
+.reneco-pin:before {
+  content: "\e663";
+}
+.reneco-support:before {
+  content: "\e912";
+}
+.reneco-info:before {
+  content: "\e69d";
+}
+.reneco-text_filter:before {
+  content: "\e91c";
+}
+.reneco-settings:before {
+  content: "\e657";
+}
+.reneco-tools:before {
+  content: "\e90f";
+}
+.reneco-time:before {
+  content: "\e655";
+}
+.reneco-timeblack:before {
+  content: "\e662";
+}
+.reneco-timewhite:before {
+  content: "\e661";
+}
+.reneco-users:before {
+  content: "\e652";
+}
+.reneco-user:before {
+  content: "\e651";
+}
+.reneco-site2:before {
+  content: "\e918";
+}
+.reneco-site:before {
+  content: "\e698";
+}
+.reneco-file:before {
+  content: "\e62c";
+}
+.reneco-file_2:before {
+  content: "\e675";
+}
+.reneco-file_doc:before {
+  content: "\e676";
+}
+.reneco-file_jpg:before {
+  content: "\e6a9";
+}
+.reneco-file_pdf:before {
+  content: "\e6aa";
+}
+.reneco-file_png:before {
+  content: "\e6ab";
+}
+.reneco-file_xls:before {
+  content: "\e6ac";
+}
+.reneco-folder:before {
+  content: "\e62d";
+}
+.reneco-cloud:before {
+  content: "\e62e";
+}
+.reneco-cloud2:before {
+  content: "\e64c";
+}
+.reneco-drag:before {
+  content: "\e679";
+}
+.reneco-graph:before {
+  content: "\e673";
+}
+.reneco-observers:before {
+  content: "\e69b";
+}
+.reneco-layers:before {
+  content: "\e64d";
+}
+.reneco-info2:before {
+  content: "\e920";
+}
+.reneco-textbubble:before {
+  content: "\e6a8";
+}
+.reneco-comment:before {
+  content: "\e699";
+}
+.reneco-favorite:before {
+  content: "\e660";
+}
+.reneco-observation:before {
+  content: "\e677";
+}
+.reneco-hidden:before {
+  content: "\e644";
+}
+.reneco-radio_off:before {
+  content: "\e642";
+}
+.reneco-radio_on:before {
+  content: "\e641";
+}
+.reneco-checkbox_off:before {
+  content: "\e640";
+}
+.reneco-validate:before {
+  content: "\e659";
+}
+.reneco-checkbox_on:before {
+  content: "\e63f";
+}
+.reneco-select:before {
+  content: "\e654";
+}
+.reneco-locked:before {
+  content: "\e911";
+}
+.reneco-unlocked:before {
+  content: "\e910";
+}
+.reneco-import1:before {
+  content: "\e658";
+}
+.reneco-tree_addchild:before {
+  content: "\e64a";
+}
+.reneco-map:before {
+  content: "\e68c";
+}
+.reneco-distance:before {
+  content: "\e653";
+}
+.reneco-selectarea:before {
+  content: "\e678";
+}
+.reneco-export:before {
+  content: "\e633";
+}
+.reneco-export2:before {
+  content: "\e686";
+}
+.reneco-import:before {
+  content: "\e634";
+}
+.reneco-import2:before {
+  content: "\e687";
+}
+.reneco-sensorimport:before {
+  content: "\e636";
+}
+.reneco-importsensor2:before {
+  content: "\e689";
+}
+.reneco-mydata:before {
+  content: "\e635";
+}
+.reneco-mydata2:before {
+  content: "\e688";
+}
+.reneco-exportsmall:before {
+  content: "\e600";
+}
+.reneco-importsensor:before {
+  content: "\e68a";
+}
+.reneco-exportsensor:before {
+  content: "\e68b";
+}
+.reneco-validatebig:before {
+  content: "\e69c";
+}
+.reneco-view:before {
+  content: "\e601";
+}
+.reneco-rfid_format:before {
+  content: "\e608";
+}
+.reneco-gsm_format:before {
+  content: "\e609";
+}
+.reneco-gpx_format:before {
+  content: "\e60a";
+}
+.reneco-pdf_format:before {
+  content: "\e60b";
+}
+.reneco-csv_format:before {
+  content: "\e60c";
+}
+.reneco-argos_format:before {
+  content: "\e907";
+}
+.reneco-camera_format:before {
+  content: "\e926";
+}
+.reneco-sheet2:before {
+  content: "\e66b";
+}
+.reneco-sheet:before {
+  content: "\e66a";
+}
+.reneco-report:before {
+  content: "\e67c";
+}
+.reneco-entry:before {
+  content: "\e631";
+}
+.reneco-entrykey:before {
+  content: "\e632";
+}
+.reneco-bug_list:before {
+  content: "\e683";
+  color: #000;
+}
+.reneco-sample_list2:before {
+  content: "\e685";
+  color: #000;
+}
+.reneco-pendingsamples:before {
+  content: "\e605";
+}
+.reneco-samples:before {
+  content: "\e606";
+}
+.reneco-report_list:before {
+  content: "\e91d";
+}
+.reneco-position_list:before {
+  content: "\e91e";
+}
+.reneco-sites:before {
+  content: "\e671";
+}
+.reneco-stations:before {
+  content: "\e670";
+}
+.reneco-individuals:before {
+  content: "\e630";
+}
+.reneco-sensors:before {
+  content: "\e62f";
+}
+.reneco-id:before {
+  content: "\e66e";
+}
+.reneco-satellite:before {
+  content: "\e67b";
+}
+.reneco-rfid:before {
+  content: "\e900";
+}
+.reneco-ECOL-emitters:before {
+  content: "\e667";
+}
+.reneco-story:before {
+  content: "\e933";
+}
+.reneco-task:before {
+  content: "\e934";
+}
+.reneco-level0:before {
+  content: "\e935";
+}
+.reneco-level1:before {
+  content: "\e936";
+}
+.reneco-level2:before {
+  content: "\e937";
+}
+.reneco-level3:before {
+  content: "\e938";
+}
+.reneco-level4:before {
+  content: "\e939";
+}
+.reneco-level5:before {
+  content: "\e93a";
+}
+.reneco-level6:before {
+  content: "\e93b";
+}
+.reneco-bustard:before {
+  content: "\e627";
+}
+.reneco-bird:before {
+  content: "\e656";
+}
+.reneco-adult:before {
+  content: "\e680";
+}
+.reneco-child:before {
+  content: "\e67f";
+}
+.reneco-bird2:before {
+  content: "\e67e";
+}
+.reneco-falcon:before {
+  content: "\e628";
+}
+.reneco-vulture:before {
+  content: "\e909";
+}
+.reneco-ganga:before {
+  content: "\e90a";
+}
+.reneco-cormoran:before {
+  content: "\e92c";
+}
+.reneco-crocodile:before {
+  content: "\e92d";
+}
+.reneco-pelican:before {
+  content: "\e92e";
+}
+.reneco-rat:before {
+  content: "\e92f";
+}
+.reneco-snake:before {
+  content: "\e930";
+}
+.reneco-tortoise:before {
+  content: "\e931";
+}
+.reneco-ring:before {
+  content: "\e64e";
+}
+.reneco-worldbig:before {
+  content: "\e692";
+}
+.reneco-worldsmall:before {
+  content: "\e693";
+}
+.reneco-security:before {
+  content: "\e690";
+}
+.reneco-securitysmall:before {
+  content: "\e697";
+}
+.reneco-TAX-taxonomies:before {
+  content: "\e905";
+  color: #000;
+}
+.reneco-TAX-taxonomiessmall:before {
+  content: "\e906";
+  color: #1d1d1b;
+}
+.reneco-PTR:before {
+  content: "\e90d";
+}
+.reneco-PTRsmall:before {
+  content: "\e90e";
+}
+.reneco-postitprinter:before {
+  content: "\e90b";
+}
+.reneco-postitprintersmall:before {
+  content: "\e90c";
+}
 .reneco-help:before {
   content: "\ea0c";
 }
@@ -204,14 +1026,17 @@
 .reneco-ECORELEVE-tag:before {
   content: "\e9bc";
 }
-.reneco-ECOL-main_insects:before {
-  content: "\e9cb";
+.reneco-ECOL-analysis:before {
+  content: "\ea11";
 }
 .reneco-ECOL-main_herbarium:before {
   content: "\e9ca";
 }
 .reneco-ECOL-main_birds:before {
   content: "\e9c7";
+}
+.reneco-ECOL-main_insects:before {
+  content: "\e9cb";
 }
 .reneco-ECOL-main_organs:before {
   content: "\e9c6";
@@ -733,829 +1558,4 @@
 }
 .reneco-POS-zoo-public:before {
   content: "\e95c";
-}
-.reneco-instances:before {
-  content: "\ea10";
-}
-.reneco-all-sites:before {
-  content: "\ea14";
-}
-.reneco-QRTAG-logo:before {
-  content: "\ea0f";
-}
-.reneco-TRACK-HNV:before {
-  content: "\ea0e";
-}
-.reneco-data-centralisation-historic:before {
-  content: "\ea0b";
-}
-.reneco-logo-ns:before {
-  content: "\ea03";
-}
-.reneco-console-admin_icon:before {
-  content: "\ea00";
-}
-.reneco-console-admin_tuile:before {
-  content: "\ea01";
-}
-.reneco-none:before {
-  content: "\ea02";
-}
-.reneco-checkbox-empty:before {
-  content: "\e9f6";
-}
-.reneco-checkbox-full:before {
-  content: "\e9f7";
-}
-.reneco-data-centralisation:before {
-  content: "\e9f2";
-}
-.reneco-tuile1:before {
-  content: "\e9f2";
-}
-.reneco-reneco-apps1:before {
-  content: "\e9f3";
-}
-.reneco-tuile2:before {
-  content: "\e9f3";
-}
-.reneco-reneco-data-centralisation:before {
-  content: "\e9f4";
-}
-.reneco-reneco-apps:before {
-  content: "\e9f5";
-}
-.reneco-TRACK-on_site:before {
-  content: "\e9d3";
-}
-.reneco-TRACK-data_transfer:before {
-  content: "\e9d2";
-}
-.reneco-cible:before {
-  content: "\e9c8";
-}
-.reneco-TRACK-external_destination:before {
-  content: "\e9b7";
-}
-.reneco-TRACK-incorrect_data:before {
-  content: "\e9b8";
-}
-.reneco-TRACK-not_incubable:before {
-  content: "\e9b9";
-}
-.reneco-checkbox-false .path1:before {
-  content: "\e91b";
-  color: rgb(233, 233, 233);
-}
-.reneco-checkbox-false .path2:before {
-  content: "\e94a";
-  margin-left: -1em;
-  color: rgb(128, 128, 128);
-}
-.reneco-checkbox-null .path1:before {
-  content: "\e94b";
-  color: rgb(233, 233, 233);
-}
-.reneco-checkbox-null .path2:before {
-  content: "\e94c";
-  margin-left: -1em;
-  color: rgb(128, 128, 128);
-}
-.reneco-checkbox-null .path3:before {
-  content: "\e94d";
-  margin-left: -1em;
-  color: rgb(102, 102, 102);
-}
-.reneco-checkbox-true .path1:before {
-  content: "\e94e";
-  color: rgb(233, 233, 233);
-}
-.reneco-checkbox-true .path2:before {
-  content: "\e94f";
-  margin-left: -1em;
-  color: rgb(128, 128, 128);
-}
-.reneco-checkbox-true .path3:before {
-  content: "\e95f";
-  margin-left: -1em;
-  color: rgb(53, 166, 98);
-}
-.reneco-TRACK-relaese:before {
-  content: "\e949";
-}
-.reneco-chevron_left:before {
-  content: "\e668";
-  color: #000;
-}
-.reneco-chevron_right:before {
-  content: "\e66f";
-  color: #000;
-}
-.reneco-chevron_top:before {
-  content: "\e672";
-  color: #000;
-}
-.reneco-chevron_bottom:before {
-  content: "\e682";
-  color: #000;
-}
-.reneco-leftarrow:before {
-  content: "\e65b";
-}
-.reneco-rightarrow:before {
-  content: "\e65c";
-}
-.reneco-add:before {
-  content: "\e65d";
-}
-.reneco-checked:before {
-  content: "\e62a";
-}
-.reneco-close:before {
-  content: "\e65e";
-}
-.reneco-syncing:before {
-  content: "\e65a";
-}
-.reneco-search2:before {
-  content: "\e65f";
-}
-.reneco-edit:before {
-  content: "\e669";
-}
-.reneco-back:before {
-  content: "\e69e";
-}
-.reneco-share:before {
-  content: "\e91f";
-}
-.reneco-inter_app_link:before {
-  content: "\e91a";
-}
-.reneco-rewind:before {
-  content: "\e664";
-}
-.reneco-back2:before {
-  content: "\e916";
-}
-.reneco-pause:before {
-  content: "\e92b";
-}
-.reneco-play:before {
-  content: "\e665";
-}
-.reneco-forward:before {
-  content: "\e666";
-}
-.reneco-menu:before {
-  content: "\e674";
-}
-.reneco-list:before {
-  content: "\e932";
-}
-.reneco-trash:before {
-  content: "\e681";
-}
-.reneco-protocol:before {
-  content: "\e602";
-}
-.reneco-drag2:before {
-  content: "\e603";
-}
-.reneco-drag_thin:before {
-  content: "\e62b";
-}
-.reneco-fit:before {
-  content: "\e67d";
-}
-.reneco-write:before {
-  content: "\e64b";
-}
-.reneco-print:before {
-  content: "\e924";
-}
-.reneco-calendar:before {
-  content: "\e67a";
-}
-.reneco-pin2:before {
-  content: "\e66c";
-}
-.reneco-connect:before {
-  content: "\e915";
-}
-.reneco-search:before {
-  content: "\e61e";
-}
-.reneco-pin:before {
-  content: "\e663";
-}
-.reneco-support:before {
-  content: "\e912";
-}
-.reneco-info:before {
-  content: "\e69d";
-}
-.reneco-text_filter:before {
-  content: "\e91c";
-}
-.reneco-settings:before {
-  content: "\e657";
-}
-.reneco-tools:before {
-  content: "\e90f";
-}
-.reneco-time:before {
-  content: "\e655";
-}
-.reneco-timeblack:before {
-  content: "\e662";
-}
-.reneco-timewhite:before {
-  content: "\e661";
-}
-.reneco-users:before {
-  content: "\e652";
-}
-.reneco-user:before {
-  content: "\e651";
-}
-.reneco-site2:before {
-  content: "\e918";
-}
-.reneco-site:before {
-  content: "\e698";
-}
-.reneco-file:before {
-  content: "\e62c";
-}
-.reneco-file_2:before {
-  content: "\e675";
-}
-.reneco-file_doc:before {
-  content: "\e676";
-}
-.reneco-file_jpg:before {
-  content: "\e6a9";
-}
-.reneco-file_pdf:before {
-  content: "\e6aa";
-}
-.reneco-file_png:before {
-  content: "\e6ab";
-}
-.reneco-file_xls:before {
-  content: "\e6ac";
-}
-.reneco-folder:before {
-  content: "\e62d";
-}
-.reneco-cloud:before {
-  content: "\e62e";
-}
-.reneco-cloud2:before {
-  content: "\e64c";
-}
-.reneco-drag:before {
-  content: "\e679";
-}
-.reneco-graph:before {
-  content: "\e673";
-}
-.reneco-observers:before {
-  content: "\e69b";
-}
-.reneco-layers:before {
-  content: "\e64d";
-}
-.reneco-group:before {
-  content: "\e639";
-}
-.reneco-info2:before {
-  content: "\e920";
-}
-.reneco-textbubble:before {
-  content: "\e6a8";
-}
-.reneco-comment:before {
-  content: "\e699";
-}
-.reneco-favorite:before {
-  content: "\e660";
-}
-.reneco-observation:before {
-  content: "\e677";
-}
-.reneco-hidden:before {
-  content: "\e644";
-}
-.reneco-radio_off:before {
-  content: "\e642";
-}
-.reneco-radio_on:before {
-  content: "\e641";
-}
-.reneco-checkbox_off:before {
-  content: "\e640";
-}
-.reneco-validate:before {
-  content: "\e659";
-}
-.reneco-checkbox_on:before {
-  content: "\e63f";
-}
-.reneco-select:before {
-  content: "\e654";
-}
-.reneco-locked:before {
-  content: "\e911";
-}
-.reneco-unlocked:before {
-  content: "\e910";
-}
-.reneco-import1:before {
-  content: "\e658";
-}
-.reneco-duplicate:before {
-  content: "\e604";
-}
-.reneco-tree_addchild:before {
-  content: "\e64a";
-}
-.reneco-text:before {
-  content: "\e63b";
-}
-.reneco-file2:before {
-  content: "\e643";
-}
-.reneco-numeric:before {
-  content: "\e63c";
-}
-.reneco-long_text:before {
-  content: "\e63d";
-}
-.reneco-cursor:before {
-  content: "\e63e";
-}
-.reneco-image_file:before {
-  content: "\e913";
-}
-.reneco-map:before {
-  content: "\e68c";
-}
-.reneco-mask:before {
-  content: "\e645";
-}
-.reneco-tree_autocomplete:before {
-  content: "\e646";
-}
-.reneco-tree:before {
-  content: "\e647";
-}
-.reneco-autocomplete:before {
-  content: "\e648";
-}
-.reneco-separator:before {
-  content: "\e649";
-}
-.reneco-distance:before {
-  content: "\e653";
-}
-.reneco-selectarea:before {
-  content: "\e678";
-}
-.reneco-subform_grid:before {
-  content: "\e927";
-}
-.reneco-decimal_input:before {
-  content: "\e914";
-}
-.reneco-export:before {
-  content: "\e633";
-}
-.reneco-export2:before {
-  content: "\e686";
-}
-.reneco-import:before {
-  content: "\e634";
-}
-.reneco-import2:before {
-  content: "\e687";
-}
-.reneco-sensorimport:before {
-  content: "\e636";
-}
-.reneco-importsensor2:before {
-  content: "\e689";
-}
-.reneco-mydata:before {
-  content: "\e635";
-}
-.reneco-mydata2:before {
-  content: "\e688";
-}
-.reneco-exportsmall:before {
-  content: "\e600";
-}
-.reneco-importsensor:before {
-  content: "\e68a";
-}
-.reneco-exportsensor:before {
-  content: "\e68b";
-}
-.reneco-validatebig:before {
-  content: "\e69c";
-}
-.reneco-view:before {
-  content: "\e601";
-}
-.reneco-rfid_format:before {
-  content: "\e608";
-}
-.reneco-gsm_format:before {
-  content: "\e609";
-}
-.reneco-gpx_format:before {
-  content: "\e60a";
-}
-.reneco-pdf_format:before {
-  content: "\e60b";
-}
-.reneco-csv_format:before {
-  content: "\e60c";
-}
-.reneco-argos_format:before {
-  content: "\e907";
-}
-.reneco-camera_format:before {
-  content: "\e926";
-}
-.reneco-sheet2:before {
-  content: "\e66b";
-}
-.reneco-sheet:before {
-  content: "\e66a";
-}
-.reneco-report:before {
-  content: "\e67c";
-}
-.reneco-entry:before {
-  content: "\e631";
-}
-.reneco-entrykey:before {
-  content: "\e632";
-}
-.reneco-bug_list:before {
-  content: "\e683";
-  color: #000;
-}
-.reneco-sample_list2:before {
-  content: "\e685";
-  color: #000;
-}
-.reneco-pendingsamples:before {
-  content: "\e605";
-}
-.reneco-samples:before {
-  content: "\e606";
-}
-.reneco-report_list:before {
-  content: "\e91d";
-}
-.reneco-position_list:before {
-  content: "\e91e";
-}
-.reneco-sites:before {
-  content: "\e671";
-}
-.reneco-stations:before {
-  content: "\e670";
-}
-.reneco-individuals:before {
-  content: "\e630";
-}
-.reneco-sensors:before {
-  content: "\e62f";
-}
-.reneco-id:before {
-  content: "\e66e";
-}
-.reneco-satellite:before {
-  content: "\e67b";
-}
-.reneco-rfid:before {
-  content: "\e900";
-}
-.reneco-ECOL-emitters:before {
-  content: "\e667";
-}
-.reneco-ECOL-sample:before {
-  content: "\e63a";
-}
-.reneco-ECOL-individualsmall:before {
-  content: "\e61f";
-}
-.reneco-ECOL-individual_group:before {
-  content: "\e902";
-  color: #1d1d1b;
-}
-.reneco-ECOL-ecouvillon:before {
-  content: "\e69f";
-  color: #000;
-}
-.reneco-ECOL-organe:before {
-  content: "\e69a";
-  color: #000;
-}
-.reneco-ECOL-bug:before {
-  content: "\e684";
-}
-.reneco-ECO-argos:before {
-  content: "\e901";
-}
-.reneco-story:before {
-  content: "\e933";
-}
-.reneco-task:before {
-  content: "\e934";
-}
-.reneco-level0:before {
-  content: "\e935";
-}
-.reneco-level1:before {
-  content: "\e936";
-}
-.reneco-level2:before {
-  content: "\e937";
-}
-.reneco-level3:before {
-  content: "\e938";
-}
-.reneco-level4:before {
-  content: "\e939";
-}
-.reneco-level5:before {
-  content: "\e93a";
-}
-.reneco-level6:before {
-  content: "\e93b";
-}
-.reneco-THE-top_concept:before {
-  content: "\e921";
-}
-.reneco-THE-middle_concept:before {
-  content: "\e922";
-}
-.reneco-THE-bottom_concept:before {
-  content: "\e923";
-}
-.reneco-TRACK-sexing:before {
-  content: "\e60d";
-}
-.reneco-TRACK-male:before {
-  content: "\e650";
-}
-.reneco-TRACK-female:before {
-  content: "\e66d";
-}
-.reneco-TRACK-donated-sold:before {
-  content: "\e60e";
-}
-.reneco-TRACK-ornamental:before {
-  content: "\e610";
-}
-.reneco-TRACK-hunting:before {
-  content: "\e611";
-}
-.reneco-TRACK-cynegetic:before {
-  content: "\e612";
-}
-.reneco-TRACK-confiscated:before {
-  content: "\e613";
-}
-.reneco-TRACK-centralised:before {
-  content: "\e614";
-}
-.reneco-TRACK-escaped-lost-disappeared:before {
-  content: "\e615";
-}
-.reneco-TRACK-released:before {
-  content: "\e616";
-}
-.reneco-TRACK-to_release:before {
-  content: "\e617";
-}
-.reneco-TRACK-excess:before {
-  content: "\e618";
-}
-.reneco-TRACK-breeder:before {
-  content: "\e619";
-}
-.reneco-TRACK-semi-natural-reproduction:before {
-  content: "\e61a";
-}
-.reneco-TRACK-removed:before {
-  content: "\e61b";
-}
-.reneco-TRACK-egg:before {
-  content: "\e61c";
-}
-.reneco-TRACK-non-inseminated:before {
-  content: "\e61d";
-}
-.reneco-TRACK-broken:before {
-  content: "\e620";
-}
-.reneco-TRACK-clear_early:before {
-  content: "\e621";
-}
-.reneco-TRACK-mid:before {
-  content: "\e622";
-}
-.reneco-TRACK-late:before {
-  content: "\e623";
-}
-.reneco-TRACK-adulte:before {
-  content: "\e626";
-}
-.reneco-TRACK-dead:before {
-  content: "\e624";
-}
-.reneco-TRACK-juvenile:before {
-  content: "\e625";
-}
-.reneco-TRACK-cull:before {
-  content: "\e917";
-}
-.reneco-TRACK-sentinelle:before {
-  content: "\e908";
-}
-.reneco-TRACK-sentinelle2:before {
-  content: "\e925";
-}
-.reneco-TRACK-not_sentinelle:before {
-  content: "\e941";
-}
-.reneco-TRACK-retirement:before {
-  content: "\e919";
-}
-.reneco-TRACK-exit-falco:before {
-  content: "\e95d";
-}
-.reneco-TRACK-status-falco:before {
-  content: "\e95e";
-}
-.reneco-TRACK-unknown:before {
-  content: "\e629";
-}
-.reneco-bustard:before {
-  content: "\e627";
-}
-.reneco-bird:before {
-  content: "\e656";
-}
-.reneco-adult:before {
-  content: "\e680";
-}
-.reneco-child:before {
-  content: "\e67f";
-}
-.reneco-bird2:before {
-  content: "\e67e";
-}
-.reneco-falcon:before {
-  content: "\e628";
-}
-.reneco-vulture:before {
-  content: "\e909";
-}
-.reneco-ganga:before {
-  content: "\e90a";
-}
-.reneco-cormoran:before {
-  content: "\e92c";
-}
-.reneco-crocodile:before {
-  content: "\e92d";
-}
-.reneco-pelican:before {
-  content: "\e92e";
-}
-.reneco-rat:before {
-  content: "\e92f";
-}
-.reneco-snake:before {
-  content: "\e930";
-}
-.reneco-tortoise:before {
-  content: "\e931";
-}
-.reneco-ring:before {
-  content: "\e64e";
-}
-.reneco-ECOL-marker:before {
-  content: "\e64f";
-}
-.reneco-ECOL-change_position:before {
-  content: "\e6a5";
-  color: #000;
-}
-.reneco-ECOL-extraction:before {
-  content: "\e6a4";
-  color: #000;
-}
-.reneco-ECOL-send_identification:before {
-  content: "\e6a6";
-  color: #1d1d1b;
-}
-.reneco-ECOL-return_identification:before {
-  content: "\e6a7";
-  color: #000;
-}
-.reneco-ECOL-pot:before {
-  content: "\e6a0";
-  color: #000;
-}
-.reneco-ECOL-send_labo:before {
-  content: "\e6a1";
-  color: #000;
-}
-.reneco-ECOL-return_labo:before {
-  content: "\e6a2";
-  color: #000;
-}
-.reneco-ECOL-centrifuge:before {
-  content: "\e6a3";
-  color: #000;
-}
-.reneco-worldbig:before {
-  content: "\e692";
-}
-.reneco-worldsmall:before {
-  content: "\e693";
-}
-.reneco-ECO-ecollectionbig:before {
-  content: "\e68d";
-}
-.reneco-ECOL-ecollectionsmall:before {
-  content: "\e607";
-}
-.reneco-ECO-releve:before {
-  content: "\e68e";
-}
-.reneco-ECO-ecorelevesmall:before {
-  content: "\e694";
-}
-.reneco-TRACK-trackbird:before {
-  content: "\e68f";
-}
-.reneco-TRACK-tracksmall:before {
-  content: "\e695";
-}
-.reneco-security:before {
-  content: "\e690";
-}
-.reneco-securitysmall:before {
-  content: "\e697";
-}
-.reneco-THE-thesaurus:before {
-  content: "\e691";
-  color: #000;
-}
-.reneco-THE-thesaurussmall:before {
-  content: "\e696";
-  color: #000;
-}
-.reneco-POS-positions:before {
-  content: "\e903";
-  color: #000;
-}
-.reneco-POS-positionssmall:before {
-  content: "\e904";
-  color: #000;
-}
-.reneco-TAX-taxonomies:before {
-  content: "\e905";
-  color: #000;
-}
-.reneco-TAX-taxonomiessmall:before {
-  content: "\e906";
-  color: #1d1d1b;
-}
-.reneco-FOR-formbuilder:before {
-  content: "\e637";
-}
-.reneco-FOR-formbuildersmall:before {
-  content: "\e638";
-}
-.reneco-PTR:before {
-  content: "\e90d";
-}
-.reneco-PTRsmall:before {
-  content: "\e90e";
-}
-.reneco-postitprinter:before {
-  content: "\e90b";
-}
-.reneco-postitprintersmall:before {
-  content: "\e90c";
 }
