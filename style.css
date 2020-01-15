@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?xpitj9');
-  src:  url('fonts/reneco.eot?xpitj9#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?xpitj9') format('woff2'),
-    url('fonts/reneco.ttf?xpitj9') format('truetype'),
-    url('fonts/reneco.woff?xpitj9') format('woff'),
-    url('fonts/reneco.svg?xpitj9#reneco') format('svg');
+  src:  url('fonts/reneco.eot?8dpeim');
+  src:  url('fonts/reneco.eot?8dpeim#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?8dpeim') format('woff2'),
+    url('fonts/reneco.ttf?8dpeim') format('truetype'),
+    url('fonts/reneco.woff?8dpeim') format('woff'),
+    url('fonts/reneco.svg?8dpeim#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -229,6 +229,48 @@
 .reneco-TRACK-HNV:before {
   content: "\ea0e";
 }
+.reneco-rewind:before {
+  content: "\e664";
+}
+.reneco-back2:before {
+  content: "\e916";
+}
+.reneco-pause:before {
+  content: "\e92b";
+}
+.reneco-play:before {
+  content: "\e665";
+}
+.reneco-forward:before {
+  content: "\e666";
+}
+.reneco-rfid_format:before {
+  content: "\e608";
+}
+.reneco-gsm_format:before {
+  content: "\e609";
+}
+.reneco-gpx_format:before {
+  content: "\e60a";
+}
+.reneco-pdf_format:before {
+  content: "\e60b";
+}
+.reneco-csv_format:before {
+  content: "\e60c";
+}
+.reneco-argos_format:before {
+  content: "\e907";
+}
+.reneco-camera_format:before {
+  content: "\e926";
+}
+.reneco-sheet2:before {
+  content: "\e66b";
+}
+.reneco-sheet:before {
+  content: "\e66a";
+}
 .reneco-ECORELEVE-logo_tuile:before {
   content: "\e68e";
 }
@@ -432,21 +474,6 @@
 }
 .reneco-inter_app_link:before {
   content: "\e91a";
-}
-.reneco-rewind:before {
-  content: "\e664";
-}
-.reneco-back2:before {
-  content: "\e916";
-}
-.reneco-pause:before {
-  content: "\e92b";
-}
-.reneco-play:before {
-  content: "\e665";
-}
-.reneco-forward:before {
-  content: "\e666";
 }
 .reneco-menu:before {
   content: "\e674";
@@ -663,33 +690,6 @@
 }
 .reneco-view:before {
   content: "\e601";
-}
-.reneco-rfid_format:before {
-  content: "\e608";
-}
-.reneco-gsm_format:before {
-  content: "\e609";
-}
-.reneco-gpx_format:before {
-  content: "\e60a";
-}
-.reneco-pdf_format:before {
-  content: "\e60b";
-}
-.reneco-csv_format:before {
-  content: "\e60c";
-}
-.reneco-argos_format:before {
-  content: "\e907";
-}
-.reneco-camera_format:before {
-  content: "\e926";
-}
-.reneco-sheet2:before {
-  content: "\e66b";
-}
-.reneco-sheet:before {
-  content: "\e66a";
 }
 .reneco-report:before {
   content: "\e67c";
@@ -918,14 +918,12 @@
 .reneco-coloration .path2:before {
   content: "\e9eb";
   margin-left: -1em;
-  color: rgb(0, 0, 0);
-  opacity: 0.2;
+  color: rgb(204, 204, 204);
 }
 .reneco-coloration .path3:before {
   content: "\e9ec";
   margin-left: -1em;
-  color: rgb(0, 0, 0);
-  opacity: 0.7;
+  color: rgb(77, 77, 77);
 }
 .reneco-conservation:before {
   content: "\e9ed";
