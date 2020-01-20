@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?8dpeim');
-  src:  url('fonts/reneco.eot?8dpeim#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?8dpeim') format('woff2'),
-    url('fonts/reneco.ttf?8dpeim') format('truetype'),
-    url('fonts/reneco.woff?8dpeim') format('woff'),
-    url('fonts/reneco.svg?8dpeim#reneco') format('svg');
+  src:  url('fonts/reneco.eot?cijoiw');
+  src:  url('fonts/reneco.eot?cijoiw#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?cijoiw') format('woff2'),
+    url('fonts/reneco.ttf?cijoiw') format('truetype'),
+    url('fonts/reneco.woff?cijoiw') format('woff'),
+    url('fonts/reneco.svg?cijoiw#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -371,6 +371,15 @@
 .reneco-console-admin_tuile:before {
   content: "\ea01";
 }
+.reneco-reneco-apps:before {
+  content: "\e9f5";
+}
+.reneco-reneco-apps1:before {
+  content: "\e9f3";
+}
+.reneco-tuile2:before {
+  content: "\e9f3";
+}
 .reneco-none:before {
   content: "\ea02";
 }
@@ -379,15 +388,6 @@
 }
 .reneco-checkbox-full:before {
   content: "\e9f7";
-}
-.reneco-reneco-apps1:before {
-  content: "\e9f3";
-}
-.reneco-tuile2:before {
-  content: "\e9f3";
-}
-.reneco-reneco-apps:before {
-  content: "\e9f5";
 }
 .reneco-checkbox-false .path1:before {
   content: "\e91b";
@@ -425,6 +425,15 @@
   content: "\e95f";
   margin-left: -1em;
   color: rgb(53, 166, 98);
+}
+.reneco-checkbox-success .path1:before {
+  content: "\ea12";
+  color: rgb(0, 198, 76);
+}
+.reneco-checkbox-success .path2:before {
+  content: "\ea13";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
 }
 .reneco-chevron_left:before {
   content: "\e668";
