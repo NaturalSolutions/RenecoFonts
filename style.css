@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?cijoiw');
-  src:  url('fonts/reneco.eot?cijoiw#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?cijoiw') format('woff2'),
-    url('fonts/reneco.ttf?cijoiw') format('truetype'),
-    url('fonts/reneco.woff?cijoiw') format('woff'),
-    url('fonts/reneco.svg?cijoiw#reneco') format('svg');
+  src:  url('fonts/reneco.eot?lvm3m3');
+  src:  url('fonts/reneco.eot?lvm3m3#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?lvm3m3') format('woff2'),
+    url('fonts/reneco.ttf?lvm3m3') format('truetype'),
+    url('fonts/reneco.woff?lvm3m3') format('woff'),
+    url('fonts/reneco.svg?lvm3m3#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -425,15 +425,6 @@
   content: "\e95f";
   margin-left: -1em;
   color: rgb(53, 166, 98);
-}
-.reneco-checkbox-success .path1:before {
-  content: "\ea12";
-  color: rgb(0, 198, 76);
-}
-.reneco-checkbox-success .path2:before {
-  content: "\ea13";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
 }
 .reneco-chevron_left:before {
   content: "\e668";
@@ -920,19 +911,8 @@
 .reneco-sperm-collection:before {
   content: "\e9e9";
 }
-.reneco-coloration .path1:before {
+.reneco-coloration:before {
   content: "\e9ea";
-  color: rgb(0, 0, 0);
-}
-.reneco-coloration .path2:before {
-  content: "\e9eb";
-  margin-left: -1em;
-  color: rgb(204, 204, 204);
-}
-.reneco-coloration .path3:before {
-  content: "\e9ec";
-  margin-left: -1em;
-  color: rgb(77, 77, 77);
 }
 .reneco-conservation:before {
   content: "\e9ed";
