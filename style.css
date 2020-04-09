@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?lvm3m3');
-  src:  url('fonts/reneco.eot?lvm3m3#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?lvm3m3') format('woff2'),
-    url('fonts/reneco.ttf?lvm3m3') format('truetype'),
-    url('fonts/reneco.woff?lvm3m3') format('woff'),
-    url('fonts/reneco.svg?lvm3m3#reneco') format('svg');
+  src:  url('fonts/reneco.eot?nwi2nt');
+  src:  url('fonts/reneco.eot?nwi2nt#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?nwi2nt') format('woff2'),
+    url('fonts/reneco.ttf?nwi2nt') format('truetype'),
+    url('fonts/reneco.woff?nwi2nt') format('woff'),
+    url('fonts/reneco.svg?nwi2nt#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -847,6 +847,12 @@
 }
 .reneco-postitprintersmall:before {
   content: "\e90c";
+}
+.reneco-repro-logo-de:before {
+  content: "\e9eb";
+}
+.reneco-repro-logo-mgt:before {
+  content: "\e9ec";
 }
 .reneco-help:before {
   content: "\ea0c";
