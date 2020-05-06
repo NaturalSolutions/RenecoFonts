@@ -4,6 +4,7 @@ pages:
   stage: deploy
   script:
     - mkdir public
+    - cp -R fonts public
     - cp -R demo-files public
     - cp demo.html public
     - cp style.css public
