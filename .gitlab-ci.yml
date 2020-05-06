@@ -3,7 +3,10 @@ image: alpine:latest
 pages:
   stage: deploy
   script:
-    - echo 'Nothing to do...'
+    - mkdir public
+    - cp demo-files public
+    - cp demo.html public
+    - cp style.css public
   artifacts:
     paths:
         - public
