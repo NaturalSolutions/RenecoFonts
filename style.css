@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?nwi2nt');
-  src:  url('fonts/reneco.eot?nwi2nt#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?nwi2nt') format('woff2'),
-    url('fonts/reneco.ttf?nwi2nt') format('truetype'),
-    url('fonts/reneco.woff?nwi2nt') format('woff'),
-    url('fonts/reneco.svg?nwi2nt#reneco') format('svg');
+  src:  url('fonts/reneco.eot?i7z5q6');
+  src:  url('fonts/reneco.eot?i7z5q6#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?i7z5q6') format('woff2'),
+    url('fonts/reneco.ttf?i7z5q6') format('truetype'),
+    url('fonts/reneco.woff?i7z5q6') format('woff'),
+    url('fonts/reneco.svg?i7z5q6#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -77,6 +77,12 @@
 .reneco-FOR-image_file:before {
   content: "\e913";
 }
+.reneco-CENTRAL-versions:before {
+  content: "\ea12";
+}
+.reneco-CENTRAL-replications:before {
+  content: "\ea13";
+}
 .reneco-CENTRAL-historic:before {
   content: "\ea0b";
 }
@@ -102,6 +108,9 @@
 .reneco-THE-thesaurussmall:before {
   content: "\e696";
   color: #000;
+}
+.reneco-TRACK-mobile-logo:before {
+  content: "\ea1c";
 }
 .reneco-TRACK-sexing:before {
   content: "\e60d";
@@ -1018,6 +1027,30 @@
 }
 .reneco-ECORELEVE-tag:before {
   content: "\e9bc";
+}
+.reneco-ECOL_sample_submittal:before {
+  content: "\ea1d";
+}
+.reneco-ECOL_add_comment_sample:before {
+  content: "\ea15";
+}
+.reneco-ECOL_container_transfer:before {
+  content: "\ea16";
+}
+.reneco-ECOL_disposal:before {
+  content: "\ea17";
+}
+.reneco-ECOL_donation:before {
+  content: "\ea18";
+}
+.reneco-ECOL_sample_creation:before {
+  content: "\ea19";
+}
+.reneco-ECOL_sample_transfer:before {
+  content: "\ea1a";
+}
+.reneco-ECOL_storage:before {
+  content: "\ea1b";
 }
 .reneco-ECOL-analysis:before {
   content: "\ea11";
