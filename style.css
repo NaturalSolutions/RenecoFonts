@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?i7z5q6');
-  src:  url('fonts/reneco.eot?i7z5q6#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?i7z5q6') format('woff2'),
-    url('fonts/reneco.ttf?i7z5q6') format('truetype'),
-    url('fonts/reneco.woff?i7z5q6') format('woff'),
-    url('fonts/reneco.svg?i7z5q6#reneco') format('svg');
+  src:  url('fonts/reneco.eot?xmca0e');
+  src:  url('fonts/reneco.eot?xmca0e#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?xmca0e') format('woff2'),
+    url('fonts/reneco.ttf?xmca0e') format('truetype'),
+    url('fonts/reneco.woff?xmca0e') format('woff'),
+    url('fonts/reneco.svg?xmca0e#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -14,7 +14,7 @@
 [class^="reneco-"], [class*=" reneco-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'reneco' !important;
-  speak: none;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -76,6 +76,9 @@
 }
 .reneco-FOR-image_file:before {
   content: "\e913";
+}
+.reneco-CENTRAL-tags:before {
+  content: "\ea1e";
 }
 .reneco-CENTRAL-versions:before {
   content: "\ea12";
