@@ -13,7 +13,7 @@ via Main Menu > Manage Projects) to retrieve your icon selection.
 
 **Install with bower**
 
-    bower install https://reneco:2NG1UpUzph_mzipYP4_e@gitlab.com/natural-solutions/reneco-fonts.git
+    bower install git@github.com:NaturalSolutions/RenecoFonts.git
 	
 Or
 
