@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?xmca0e');
-  src:  url('fonts/reneco.eot?xmca0e#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?xmca0e') format('woff2'),
-    url('fonts/reneco.ttf?xmca0e') format('truetype'),
-    url('fonts/reneco.woff?xmca0e') format('woff'),
-    url('fonts/reneco.svg?xmca0e#reneco') format('svg');
+  src:  url('fonts/reneco.eot?5p98pj');
+  src:  url('fonts/reneco.eot?5p98pj#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?5p98pj') format('woff2'),
+    url('fonts/reneco.ttf?5p98pj') format('truetype'),
+    url('fonts/reneco.woff?5p98pj') format('woff'),
+    url('fonts/reneco.svg?5p98pj#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,6 +26,93 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.reneco-logo-parameditor:before {
+  content: "\ea20";
+}
+.reneco-repro-logo-de:before {
+  content: "\e9eb";
+}
+.reneco-repro-logo-mgt:before {
+  content: "\e9ec";
+}
+.reneco-help:before {
+  content: "\ea0c";
+}
+.reneco-planches-pictos_attribution-2:before {
+  content: "\ea0d";
+}
+.reneco-onglet:before {
+  content: "\ea0a";
+}
+.reneco-affichage_horizontal:before {
+  content: "\ea04";
+}
+.reneco-affichage_horizontal-empty:before {
+  content: "\ea05";
+}
+.reneco-affichage_T:before {
+  content: "\ea06";
+}
+.reneco-affichage_T-empty:before {
+  content: "\ea07";
+}
+.reneco-affichage_vertical:before {
+  content: "\ea08";
+}
+.reneco-affichage_vertical-empty:before {
+  content: "\ea09";
+}
+.reneco-logout:before {
+  content: "\e9ff";
+}
+.reneco-error:before {
+  content: "\e9f8";
+}
+.reneco-home:before {
+  content: "\e9f9";
+}
+.reneco-attribution:before {
+  content: "\e9fa";
+}
+.reneco-female-list:before {
+  content: "\e9fb";
+}
+.reneco-male-list:before {
+  content: "\e9fc";
+}
+.reneco-sperm-mixes:before {
+  content: "\e9fd";
+}
+.reneco-update-planification:before {
+  content: "\e9fe";
+}
+.reneco-appli-repro:before {
+  content: "\e9f1";
+}
+.reneco-tuile:before {
+  content: "\e9f1";
+}
+.reneco-logo:before {
+  content: "\e9e8";
+}
+.reneco-sperm-collection:before {
+  content: "\e9e9";
+}
+.reneco-coloration:before {
+  content: "\e9ea";
+}
+.reneco-conservation:before {
+  content: "\e9ed";
+}
+.reneco-sperm-bank-management:before {
+  content: "\e9ee";
+}
+.reneco-data-entry:before {
+  content: "\e9ef";
+}
+.reneco-management:before {
+  content: "\e9f0";
+}
 .reneco-FOR-formbuilder:before {
   content: "\e637";
 }
@@ -859,90 +946,6 @@
 }
 .reneco-postitprintersmall:before {
   content: "\e90c";
-}
-.reneco-repro-logo-de:before {
-  content: "\e9eb";
-}
-.reneco-repro-logo-mgt:before {
-  content: "\e9ec";
-}
-.reneco-help:before {
-  content: "\ea0c";
-}
-.reneco-planches-pictos_attribution-2:before {
-  content: "\ea0d";
-}
-.reneco-onglet:before {
-  content: "\ea0a";
-}
-.reneco-affichage_horizontal:before {
-  content: "\ea04";
-}
-.reneco-affichage_horizontal-empty:before {
-  content: "\ea05";
-}
-.reneco-affichage_T:before {
-  content: "\ea06";
-}
-.reneco-affichage_T-empty:before {
-  content: "\ea07";
-}
-.reneco-affichage_vertical:before {
-  content: "\ea08";
-}
-.reneco-affichage_vertical-empty:before {
-  content: "\ea09";
-}
-.reneco-logout:before {
-  content: "\e9ff";
-}
-.reneco-error:before {
-  content: "\e9f8";
-}
-.reneco-home:before {
-  content: "\e9f9";
-}
-.reneco-attribution:before {
-  content: "\e9fa";
-}
-.reneco-female-list:before {
-  content: "\e9fb";
-}
-.reneco-male-list:before {
-  content: "\e9fc";
-}
-.reneco-sperm-mixes:before {
-  content: "\e9fd";
-}
-.reneco-update-planification:before {
-  content: "\e9fe";
-}
-.reneco-appli-repro:before {
-  content: "\e9f1";
-}
-.reneco-tuile:before {
-  content: "\e9f1";
-}
-.reneco-logo:before {
-  content: "\e9e8";
-}
-.reneco-sperm-collection:before {
-  content: "\e9e9";
-}
-.reneco-coloration:before {
-  content: "\e9ea";
-}
-.reneco-conservation:before {
-  content: "\e9ed";
-}
-.reneco-sperm-bank-management:before {
-  content: "\e9ee";
-}
-.reneco-data-entry:before {
-  content: "\e9ef";
-}
-.reneco-management:before {
-  content: "\e9f0";
 }
 .reneco-ECORELEVE-1:before {
   content: "\e9d5";
