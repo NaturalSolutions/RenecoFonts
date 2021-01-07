@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?8locg1');
-  src:  url('fonts/reneco.eot?8locg1#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?8locg1') format('woff2'),
-    url('fonts/reneco.ttf?8locg1') format('truetype'),
-    url('fonts/reneco.woff?8locg1') format('woff'),
-    url('fonts/reneco.svg?8locg1#reneco') format('svg');
+  src:  url('fonts/reneco.eot?fouoh');
+  src:  url('fonts/reneco.eot?fouoh#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?fouoh') format('woff2'),
+    url('fonts/reneco.ttf?fouoh') format('truetype'),
+    url('fonts/reneco.woff?fouoh') format('woff'),
+    url('fonts/reneco.svg?fouoh#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -457,6 +457,9 @@
 }
 .reneco-cible:before {
   content: "\e9c8";
+}
+.reneco-reneco-reversed-arrows:before {
+  content: "\ea22";
 }
 .reneco-instances:before {
   content: "\ea10";
