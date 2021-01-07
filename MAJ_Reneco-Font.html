@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 <header>
+  <title>Jérémy & sa magie 🧙🏻‍♂️</title>
+  <style>
+    *{
+      cursor: url("https://www.shareicon.net/data/32x32/2016/10/25/847548_cute_512x512.png") 14 14, auto !important;
+    }
+  </style>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -76,23 +82,20 @@
       Si jamais, une erreur apparait lorsque tu clics sur le bouton, même histoire qu'avant, voir un dev, n'importe qui
       devrait comprendre ce que j'ai fait et débuger en un rien de temps. Si un message "PARFAIT !! :O" apparait,
       c'est que tu as tiré le gros lot ! Ta nouvelle version s'est bien upload. Pour vérifier ça, rien de plus simple,
-      rends toi <a href="https://gitlab.com/natural-solutions/reneco-fonts/-/commits/master" target="_blank">ici</a>. Si
+      rends toi <a href="https://gitlab.com/natural-solutions/reneco-fonts/-/releases" target="_blank">ici</a>. Si
       tu voit bien tout en haut ta mise à jours, c'est que tu viens de finir en 2min ce qui prenait aux anciens
       designers/intégrateurs 30min + l'aide d'un développeur !
     </p>
 
-
-
-    <button class="btn btn-success" id="#CreerRelease" data-dismiss="modal">Envoyer la MAJ ! Feu !! 🔥💥</button>
+    <button class="btn btn-success mb-3" id="CreerRelease" data-dismiss="modal">Envoyer la MAJ ! Feu !! 🔥💥</button>
   </div>
-
 
 </body>
 <script>
-
+ $(document).ready(function () {
   $(document).on('click', '#CreerRelease', function () {
     $.ajax({
-      url: "https://gitlab.com/api/v4/projects/20690131/repository/tags",
+      url: "https://gitlab.com/api/v4/projects/18612847/repository/tags",
       type: 'POST',
       data: {
         private_token: "NWNQZz8ocvuTYUTGMcsq",
@@ -102,7 +105,7 @@
       crossDomain: true,
       success: function (data) {
         $.ajax({
-          url: "https://gitlab.com/api/v4/projects/20690131/releases",
+          url: "https://gitlab.com/api/v4/projects/18612847/releases",
           type: 'POST',
           data: {
             tag_name: $('#TitreTag').val(),
@@ -127,6 +130,7 @@
       }
     })
   })
+})
 </script>
 
 </html>
