@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?5p98pj');
-  src:  url('fonts/reneco.eot?5p98pj#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?5p98pj') format('woff2'),
-    url('fonts/reneco.ttf?5p98pj') format('truetype'),
-    url('fonts/reneco.woff?5p98pj') format('woff'),
-    url('fonts/reneco.svg?5p98pj#reneco') format('svg');
+  src:  url('fonts/reneco.eot?8locg1');
+  src:  url('fonts/reneco.eot?8locg1#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?8locg1') format('woff2'),
+    url('fonts/reneco.ttf?8locg1') format('truetype'),
+    url('fonts/reneco.woff?8locg1') format('woff'),
+    url('fonts/reneco.svg?8locg1#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,6 +26,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.reneco-reneco-flag:before {
+  content: "\ea1f";
+}
 .reneco-logo-parameditor:before {
   content: "\ea20";
 }
@@ -163,6 +166,9 @@
 }
 .reneco-FOR-image_file:before {
   content: "\e913";
+}
+.reneco-reneco-sites-cm:before {
+  content: "\ea21";
 }
 .reneco-CENTRAL-tags:before {
   content: "\ea1e";
