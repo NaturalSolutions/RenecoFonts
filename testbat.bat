@@ -47,7 +47,7 @@ echo  ----------------------------------------
 echo   3eme Partie : Verification d'envoi du commit
 echo  ---------------------------------------- 
 echo.
-echo Normalement tout c'est bien passe, mais en l'informatique, cette phrase semble etre rare.
+echo Normalement tout c'est bien passe, mais en informatique, cette phrase semble etre rare.
 echo On va donc prendre le temps de verifier si le commit est bien partie.
 echo Et vu que je suis toujours aussi gentil, je t'ouvre directement le page en question
 echo Si jamais, le commit ne s'est pas envoye, demande a un developpeur de chercher a comprendre pourquoi. Ne perds pas ton temps sur ca, on est dev et on est paye a fixer ce type de probleme :)
@@ -122,7 +122,7 @@ echo Maintenant le moment de verifite, je vais envoyer tout ca en ligne, si tout
 echo.
 pause;
 
-curl --request POST "https://gitlab.com/api/v4/projects/18612847/repository/tags?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%DescriptionRelease%&name=%TitreRelease%&ref=master"
+curl --request POST "https://gitlab.com/api/v4/projects/18612847/repository/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%DescriptionRelease%&name=%TitreRelease%&ref=master"
 
 echo.
 echo  ----------------------------------------
