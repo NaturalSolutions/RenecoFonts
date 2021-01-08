@@ -48,27 +48,15 @@ set /p NumeroTags="Numero de version / tags : "
 echo.
 curl --request POST "https://gitlab.com/api/v4/projects/18612847/repository/tags?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&ref=master"
 echo.
-
+echo.
 set /p TitreRelease="Titre de la release (Exemple : Ajout du logo QrCode) : "
 echo.
 set /p DescriptionRelease="Description de la nouvelle version : "
 echo.
 curl --request POST "https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%DescriptionRelease%&name=%TitreRelease%&ref=master"
-
 echo.
-echo  ----------------------------------------
-echo   FINI
-echo  ---------------------------------------- 
-echo Deja fini !
-echo Verifions tout c'est bien passe comme prevue, tellement l'appli est bien faite :)
-echo Pour ce faire je t'ouvre la page en question et verifie si elle est bien la
-echo.
-pause;
 
-start chrome /new-window https://gitlab.com/natural-solutions/reneco-fonts/-/releases 
-
-
-
+goto :fini
 
 :ReleaseExplication
 cls
@@ -195,9 +183,11 @@ curl --request POST --url "https://gitlab.com/api/v4/projects/18612847/releases"
 @REM curl --request POST "https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%DescriptionRelease%&name=%TitreRelease%&ref=master"
 echo.
 
-echo  ----------------------------------------
-echo   6eme Partie : FINI
-echo  ---------------------------------------- 
+:fini
+echo.
+echo  ---------------
+echo   FINI !!!
+echo  ---------------
 pause;
 
 echo C'est bon c'est fini !
