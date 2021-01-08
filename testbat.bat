@@ -36,7 +36,7 @@ echo Si tu es la c'est que tu sais deja comment tout marche, tu veux juste rempl
 echo Si jamais la release n'est pas cree et que tu n'es pas dev, demande a un dev de l'aide. Ne perds pas de temps
 echo.
 
-set /p TitreCommit="Titre du commit: "
+set /p TitreCommit="Titre du commit (Exemple : Ajout de l'icon reneco-stats-logo pour central monitoring in version) : "
 echo.
 git pull
 git add --all
@@ -44,14 +44,17 @@ git commit -am "%TitreCommit%"
 git push
 echo.
 
-set /p NumeroTags="Numero de version / tags : "
+set /p NumeroTags="Numero de version / tags (Exemple : 22.01) : "
 echo.
 curl --request POST "https://gitlab.com/api/v4/projects/18612847/repository/tags?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&ref=master"
 echo.
 echo.
 set /p TitreRelease="Titre de la release (Exemple : Ajout du logo QrCode) : "
 echo.
-set /p DescriptionRelease="Description de la nouvelle version : "
+set /p DescriptionRelease="Une description de la release (Exemple : Ajout de l'icon reneco-stats-logo pour central monitoring in version) : "
+echo.
+
+set DescriptionRelease = "hey wow é"
 echo.
 curl --request POST "https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%DescriptionRelease%&name=%TitreRelease%&ref=master"
 echo.
