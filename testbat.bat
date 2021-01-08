@@ -193,7 +193,7 @@ echo.
 set FixTitreRelease=!TitreRelease: =%%20!
 set FixDescriptionRelease=!DescriptionRelease: =%%20!
 
-curl --request POST "https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%DescriptionRelease%&name=%TitreRelease%&ref=master"
+curl --request POST "https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%FixDescriptionRelease%&name=%FixTitreRelease%&ref=master"
 echo.
 echo.
 
