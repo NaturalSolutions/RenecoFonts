@@ -64,8 +64,11 @@ echo.
 echo.
 curl --request POST "https://gitlab.com/api/v4/projects/18612847/repository/tags?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&ref=master"
 echo.
+echo aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 echo.
 curl --request POST "https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%FixDescriptionRelease%&name=%TitreRelease%&ref=master"
+echo.
+echo bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 echo.
 pause
 goto :fini
@@ -192,11 +195,20 @@ pause;
 echo.
 set FixTitreRelease=!TitreRelease: =%%20!
 set FixDescriptionRelease=!DescriptionRelease: =%%20!
+echo CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+echo %FixTitreRelease%
+echo %FixDescriptionRelease%
+echo DDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 
 curl --request POST "https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%FixDescriptionRelease%&name=%FixTitreRelease%&ref=master"
 echo.
+echo EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 echo.
 echo https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%FixDescriptionRelease%&name=%FixTitreRelease%&ref=master
+echo.
+echo FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+
 
 echo  ---------------
 echo   FINI !!!
