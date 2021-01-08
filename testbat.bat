@@ -126,7 +126,18 @@ echo.
 pause;
 
 echo.
-curl --request POST "https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%DescriptionRelease%&name=%TitreRelease%&ref=master"
+curl --request POST \
+--url "https://gitlab.com/api/v4/projects/18612847/releases" \
+--header "content-type: application/json" \
+--header "PRIVATE-TOKEN: NWNQZz8ocvuTYUTGMcsq" \
+--data '{
+  "tag_name": "%NumeroTags%",
+  "description": "%DescriptionRelease%",
+  "name": "%TitreRelease%",
+  "ref": "master"
+}'
+
+@REM curl --request POST "https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%DescriptionRelease%&name=%TitreRelease%&ref=master"
 echo.
 
 echo  ----------------------------------------
