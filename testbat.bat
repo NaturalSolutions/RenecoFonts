@@ -122,7 +122,7 @@ echo Maintenant le moment de verifite, je vais envoyer tout ca en ligne, si tout
 echo.
 pause;
 
-curl --request POST "https://gitlab.com/api/v4/projects/18612847/repository/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%DescriptionRelease%&name=%TitreRelease%&ref=master"
+curl --request POST "https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%DescriptionRelease%&name=%TitreRelease%&ref=master"
 
 echo.
 echo  ----------------------------------------
