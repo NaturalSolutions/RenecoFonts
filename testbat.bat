@@ -82,7 +82,7 @@ IF "%choix%"=="n" goto :NumeroTag && echo.
 echo.
 @REM curl --request POST "https://gitlab.com/api/v4/projects/18612847/repository/tags?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&ref=master"
 git tag -a %NumeroTags% -m "A new tag for a new release"
-$ git push --tags
+git push --tags
 echo.
 
 echo  ----------------------------------------
