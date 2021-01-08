@@ -65,7 +65,6 @@ echo.
 echo.
 curl --request POST "https://gitlab.com/api/v4/projects/18612847/repository/tags?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&ref=master"
 echo.
-pause
 goto :fini
 
 :ReleaseExplication
