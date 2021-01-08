@@ -43,7 +43,6 @@ git pull
 git add --all
 git commit -am "%TitreCommit%"
 git push
-echo.
 
 echo  ----------------------------------------
 echo   3eme Partie : Verification d'envoi du commit
