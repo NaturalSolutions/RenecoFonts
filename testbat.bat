@@ -55,17 +55,16 @@ echo "Maintenant que j'ai toutes les infos, je peux m'attaquer a executer toutes
 pause;
 echo.
 echo.
-set FixTitreRelease=!TitreRelease: =%%20!
-set FixDescriptionRelease=!DescriptionRelease: =%%20!
 
 git pull
 git add --all
 git commit -am "%TitreCommit%"
 git push
 echo.
-
+echo.
 curl --request POST "https://gitlab.com/api/v4/projects/18612847/repository/tags?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&ref=master"
-
+echo.
+echo.
 curl --request POST "https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%FixDescriptionRelease%&name=%TitreRelease%&ref=master"
 echo.
 pause
@@ -189,15 +188,15 @@ echo Super, maintenant on a un titre, une description, un tag, on a tout ce qu'i
 echo Maintenant le moment de verifite, je vais envoyer tout ca en ligne, si tout ce passe bien, on a gagne !
 echo.
 pause;
-
-echo.
-curl --request POST --url "https://gitlab.com/api/v4/projects/18612847/releases" --header "content-type: application/json" --header "PRIVATE-TOKEN: NWNQZz8ocvuTYUTGMcsq" --data '{  "tag_name": "%NumeroTags%","description": "%DescriptionRelease%", "name": "%TitreRelease%", "ref": "master"}'
-
-@REM curl --request POST "https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%DescriptionRelease%&name=%TitreRelease%&ref=master"
-echo.
-
 :fini
 echo.
+set FixTitreRelease=!TitreRelease: =%%20!
+set FixDescriptionRelease=!DescriptionRelease: =%%20!
+
+curl --request POST "https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%DescriptionRelease%&name=%TitreRelease%&ref=master"
+echo.
+echo.
+
 echo  ---------------
 echo   FINI !!!
 echo  ---------------
