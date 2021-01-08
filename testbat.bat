@@ -51,7 +51,8 @@ set /p choix=Es-tu ok avec ces infos ? (o) Preferes tu recommencer? (r)
 IF "%choix%" NEQ "o" goto :ReleaseRapide 
 
 echo.
-echo "Maintenant que j'ai toutes les infos, je peux m'attaquer a executer toutes les commandes a la suite"
+echo Maintenant que j'ai toutes les infos, je peux m'attaquer a executer toutes les commandes a la suite
+echo.
 pause;
 echo.
 echo.
@@ -63,12 +64,6 @@ git push
 echo.
 echo.
 curl --request POST "https://gitlab.com/api/v4/projects/18612847/repository/tags?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&ref=master"
-echo.
-echo aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-echo.
-curl --request POST "https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%FixDescriptionRelease%&name=%TitreRelease%&ref=master"
-echo.
-echo bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 echo.
 pause
 goto :fini
