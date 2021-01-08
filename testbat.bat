@@ -80,7 +80,9 @@ set /p choix=[QUESTION] Ca te convient et on continue (o) ? Ou je te laisse le c
 IF "%choix%"=="n" goto :NumeroTag && echo.
 
 echo.
-curl --request POST "https://gitlab.com/api/v4/projects/18612847/repository/tags?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&ref=master"
+@REM curl --request POST "https://gitlab.com/api/v4/projects/18612847/repository/tags?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&ref=master"
+git tag -a %NumeroTags% -m "A new tag for a new release"
+$ git push --tags
 echo.
 
 echo  ----------------------------------------
