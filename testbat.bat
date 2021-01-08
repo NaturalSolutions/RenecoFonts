@@ -8,6 +8,70 @@ echo \____/ \___^|_^|  \___^|_^| ^|_^| ^|_^|\__, ^|
 echo                                 __/ ^|
 echo                                ^|___/ 
 
+
+echo.
+echo -------------
+echo   Menu 
+echo -------------
+echo.
+echo  [1] Mise a jour rapide, je sais comment ca marche
+echo  [2] Mise a jour normal, j'aime avoir des explications et comprendre
+echo.
+echo -------------
+echo.
+
+set /p TitreCommit="Que preferes tu ? 1 ou 2 ? "
+IF "%choix%"=="1" goto :ReleaseRapide
+IF "%choix%"=="2" goto :ReleaseExplication
+
+
+:ReleaseRapide
+cls
+echo.
+echo  ----------------------------------------
+echo   Mise a jour rapide
+echo  ---------------------------------------- 
+echo.
+echo Si tu es la c'est que tu sais deja comment tout marche, tu veux juste remplir des champs et envoyer le tout
+echo Si jamais la release n'est pas cree et que tu n'es pas dev, demande a un dev de l'aide. Ne perds pas de temps
+echo.
+
+set /p TitreCommit="Titre du commit: "
+echo.
+git pull
+git add --all
+git commit -am "%TitreCommit%"
+git push
+echo.
+
+set /p NumeroTags="Numero de version / tags : "
+echo.
+curl --request POST "https://gitlab.com/api/v4/projects/18612847/repository/tags?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&ref=master"
+echo.
+
+set /p TitreRelease="Titre de la release (Exemple : Ajout du logo QrCode) : "
+echo.
+set /p DescriptionRelease="Description de la nouvelle version : "
+echo.
+curl --request POST "https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%DescriptionRelease%&name=%TitreRelease%&ref=master"
+
+echo.
+echo  ----------------------------------------
+echo   FINI
+echo  ---------------------------------------- 
+echo Deja fini !
+echo Verifions tout c'est bien passe comme prevue, tellement l'appli est bien faite :)
+echo Pour ce faire je t'ouvre la page en question et verifie si elle est bien la
+echo.
+pause;
+
+start chrome /new-window https://gitlab.com/natural-solutions/reneco-fonts/-/releases 
+
+
+
+
+:ReleaseExplication
+cls
 echo.
 echo  ----------------------------------------
 echo   1er Partie : Changer les fichiers
@@ -80,9 +144,7 @@ set /p choix=[QUESTION] Ca te convient et on continue (o) ? Ou je te laisse le c
 IF "%choix%"=="n" goto :NumeroTag && echo.
 
 echo.
-@REM curl --request POST "https://gitlab.com/api/v4/projects/18612847/repository/tags?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&ref=master"
-git tag -a %NumeroTags%
-git push --tags
+curl --request POST "https://gitlab.com/api/v4/projects/18612847/repository/tags?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&ref=master"
 echo.
 
 echo  ----------------------------------------
@@ -148,7 +210,7 @@ echo On va verifier si la nouvelle version s'est bien cree..
 PING -n 3 127.0.0.1>nul
 echo Je t'ouvre la page..
 PING -n 3 127.0.0.1>nul
-echo Et si tout est en place, et bien tu auras créé une release en 2min avec un cmd sans tapper aucune commande :)
+echo Et si tout est en place, et bien tu auras cree une release en 2min avec un cmd sans tapper aucune commande :)
 PING -n 3 127.0.0.1>nul
 echo.
 pause;
