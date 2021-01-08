@@ -37,12 +37,14 @@ echo [INFORMATION] Donc ton titre ce serait : "%TitreCommit%"
 echo.
 set /p choix=[QUESTION] Ca te convient et on continue (o) ? Ou je te laisse le choix de changer a nouveau, je suis gentil :) (n) ? (o/n)
 IF "%choix%"=="n" goto :TitreCommit && echo.
+
+echo.
 git pull
 git add --all
 git commit -am "%TitreCommit%"
 git push
-
 echo.
+
 echo  ----------------------------------------
 echo   3eme Partie : Verification d'envoi du commit
 echo  ---------------------------------------- 
@@ -77,9 +79,10 @@ echo.
 set /p choix=[QUESTION] Ca te convient et on continue (o) ? Ou je te laisse le choix de changer a nouveau, je suis gentil :) (n) ? (o/n)
 IF "%choix%"=="n" goto :NumeroTag && echo.
 
-curl --request POST "https://gitlab.com/api/v4/projects/18612847/repository/tags?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&ref=master"
-
 echo.
+curl --request POST "https://gitlab.com/api/v4/projects/18612847/repository/tags?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&ref=master"
+echo.
+
 echo  ----------------------------------------
 echo   3eme Partie : Verification de creation du tags
 echo  ---------------------------------------- 
@@ -122,9 +125,10 @@ echo Maintenant le moment de verifite, je vais envoyer tout ca en ligne, si tout
 echo.
 pause;
 
-curl --request POST "https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%DescriptionRelease%&name=%TitreRelease%&ref=master"
-
 echo.
+curl --request POST "https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%DescriptionRelease%&name=%TitreRelease%&ref=master"
+echo.
+
 echo  ----------------------------------------
 echo   6eme Partie : FINI
 echo  ---------------------------------------- 
