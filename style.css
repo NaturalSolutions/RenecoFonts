@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reneco';
-  src:  url('fonts/reneco.eot?ag6r9m');
-  src:  url('fonts/reneco.eot?ag6r9m#iefix') format('embedded-opentype'),
-    url('fonts/reneco.woff2?ag6r9m') format('woff2'),
-    url('fonts/reneco.ttf?ag6r9m') format('truetype'),
-    url('fonts/reneco.woff?ag6r9m') format('woff'),
-    url('fonts/reneco.svg?ag6r9m#reneco') format('svg');
+  src:  url('fonts/reneco.eot?u3vzzi');
+  src:  url('fonts/reneco.eot?u3vzzi#iefix') format('embedded-opentype'),
+    url('fonts/reneco.woff2?u3vzzi') format('woff2'),
+    url('fonts/reneco.ttf?u3vzzi') format('truetype'),
+    url('fonts/reneco.woff?u3vzzi') format('woff'),
+    url('fonts/reneco.svg?u3vzzi#reneco') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,10 +26,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.reneco-reneco-flag:before {
+.reneco-parameter-tuile:before {
   content: "\ea1f";
 }
-.reneco-logo-parameditor:before {
+.reneco-parameter-logo:before {
   content: "\ea20";
 }
 .reneco-repro-logo-de:before {
@@ -167,7 +167,7 @@
 .reneco-FOR-image_file:before {
   content: "\e913";
 }
-.reneco-reneco-stats-logo:before {
+.reneco-stats-logo:before {
   content: "\ea23";
 }
 .reneco-sites-cm:before {
@@ -460,6 +460,9 @@
 }
 .reneco-cible:before {
   content: "\e9c8";
+}
+.reneco-flag:before {
+  content: "\ea24";
 }
 .reneco-reversed-arrows:before {
   content: "\ea22";
@@ -1045,6 +1048,9 @@
 }
 .reneco-ECORELEVE-tag:before {
   content: "\e9bc";
+}
+.reneco-edition-cancel:before {
+  content: "\ea25";
 }
 .reneco-ECOL_sample_submittal:before {
   content: "\ea1d";
