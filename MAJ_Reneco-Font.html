@@ -126,7 +126,25 @@
 
       },
       error: function (xhr, status, erreur) {
-        alert(xhr.responseJSON.message)
+        $.ajax({
+          url: "https://gitlab.com/api/v4/projects/18612847/releases",
+          type: 'POST',
+          data: {
+            tag_name: $('#TitreTag').val(),
+            description: $('#Description').val(),
+            private_token: "NWNQZz8ocvuTYUTGMcsq",
+            name: $('#TitreRelease').val(),
+            ref: $('#Reference').val()
+          },
+          crossDomain: true,
+          success: function (data) {
+            alert('PARFAIT !! :O')
+            console.log(data);
+          },
+          error: function (xhr, status, erreur) {
+            alert(xhr.responseJSON.message)
+          }
+        })
       }
     })
   })
