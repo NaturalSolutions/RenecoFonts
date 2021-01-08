@@ -1,4 +1,6 @@
 @echo off
+setlocal enabledelayedexpansion
+
 echo    ___                               
 echo   ^|_  ^|                              
 echo     ^| ^| ___ _ __ ___ _ __ ___  _   _ 
@@ -27,7 +29,6 @@ IF "%choix%"=="2" goto :ReleaseExplication
 
 :ReleaseRapide
 cls
-echo.
 echo  ----------------------------------------
 echo   Mise a jour rapide
 echo  ---------------------------------------- 
@@ -35,30 +36,39 @@ echo.
 echo Si tu es la c'est que tu sais deja comment tout marche, tu veux juste remplir des champs et envoyer le tout
 echo Si jamais la release n'est pas cree et que tu n'es pas dev, demande a un dev de l'aide. Ne perds pas de temps
 echo.
-
+echo ATTENTION, AUCUN ACCENT OU CARACTERE SPECIAL, JUSTE DES LETTRES ET ESPACES. Pas de = ou de é ou - ou [ ou ( ou autres, tu as compris l'idee :)
+echo.
 set /p TitreCommit="Titre du commit (Exemple : Ajout de l'icon reneco-stats-logo pour central monitoring in version) : "
 echo.
+set /p NumeroTags="Numero de version / tags (Exemple : 22.01) : "
+echo.
+set /p TitreRelease="Titre de la release (Exemple : Ajout du logo QrCode) : "
+echo.
+set /p DescriptionRelease="Une description de la release (Exemple : Ajout de l'icon reneco-stats-logo pour central monitoring pour les version) : "
+echo.
+
+set /p choix=Es-tu ok avec ces infos ? (o) Preferes tu recommencer? (r)
+IF "%choix%" NEQ "o" goto :ReleaseRapide 
+
+echo.
+echo "Maintenant que j'ai toutes les infos, je peux m'attaquer a executer toutes les commandes a la suite"
+pause;
+echo.
+echo.
+set FixTitreRelease=!TitreRelease: =%%20!
+set FixDescriptionRelease=!DescriptionRelease: =%%20!
+
 git pull
 git add --all
 git commit -am "%TitreCommit%"
 git push
 echo.
 
-set /p NumeroTags="Numero de version / tags (Exemple : 22.01) : "
-echo.
 curl --request POST "https://gitlab.com/api/v4/projects/18612847/repository/tags?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&ref=master"
-echo.
-echo.
-set /p TitreRelease="Titre de la release (Exemple : Ajout du logo QrCode) : "
-echo.
-@REM set /p DescriptionRelease="Une description de la release (Exemple : Ajout de l'icon reneco-stats-logo pour central monitoring in version) : "
-echo.
 
-set DescriptionRelease="hey%%20!wow"
+curl --request POST "https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%FixDescriptionRelease%&name=%TitreRelease%&ref=master"
 echo.
-curl --request POST "https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%DescriptionRelease%&name=%TitreRelease%&ref=master"
-echo.
-
+pause
 goto :fini
 
 :ReleaseExplication
