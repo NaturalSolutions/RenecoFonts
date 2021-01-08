@@ -51,10 +51,10 @@ echo.
 echo.
 set /p TitreRelease="Titre de la release (Exemple : Ajout du logo QrCode) : "
 echo.
-set /p DescriptionRelease="Une description de la release (Exemple : Ajout de l'icon reneco-stats-logo pour central monitoring in version) : "
+@REM set /p DescriptionRelease="Une description de la release (Exemple : Ajout de l'icon reneco-stats-logo pour central monitoring in version) : "
 echo.
 
-set DescriptionRelease = "hey wow é"
+set DescriptionRelease="hey wow é"
 echo.
 curl --request POST "https://gitlab.com/api/v4/projects/18612847/releases?private_token=NWNQZz8ocvuTYUTGMcsq&tag_name=%NumeroTags%&description=%DescriptionRelease%&name=%TitreRelease%&ref=master"
 echo.
