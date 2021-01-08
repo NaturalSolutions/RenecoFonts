@@ -37,7 +37,7 @@ echo [INFORMATION] Donc ton titre ce serait : "%TitreCommit%"
 echo.
 set /p choix=[QUESTION] Ca te convient et on continue (o) ? Ou je te laisse le choix de changer a nouveau, je suis gentil :) (n) ? (o/n)
 IF "%choix%"=="n" goto :TitreCommit && echo.
-
+git pull
 git add --all
 git commit -am "%TitreCommit%"
 git push
