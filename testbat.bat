@@ -102,7 +102,7 @@ echo  ----------------------------------------
 echo.
 echo Voila le Boss de fin !!
 echo Apres ca tu pourras enfin respirer :)
-echo Pour gagner la guerre, tout ce qu'il nous fait c'est 2 informations : titre et description.
+echo Pour gagner la guerre, tout ce qu'il nous faut c'est 2 informations : titre et description.
 :TitreRelease
 echo.
 set /p TitreRelease="Titre de la release (Exemple : Ajout du logo QrCode) : "
@@ -145,6 +145,7 @@ PING -n 3 127.0.0.1>nul
 echo Je t'ouvre la page..
 PING -n 3 127.0.0.1>nul
 echo Et si tout est en place, et bien tu auras créé une release en 2min avec un cmd sans tapper aucune commande :)
+PING -n 3 127.0.0.1>nul
 echo.
 pause;
 
